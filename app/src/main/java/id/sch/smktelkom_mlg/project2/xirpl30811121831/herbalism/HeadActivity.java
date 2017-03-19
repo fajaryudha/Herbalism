@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 import java.util.ArrayList;
 
@@ -26,6 +27,13 @@ public class HeadActivity extends AppCompatActivity {
         this.setTitle("Head");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.RecyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -34,6 +42,7 @@ public class HeadActivity extends AppCompatActivity {
         recyclerView.setAdapter(mAdapter);
 
         fillData();
+
     }
 
     private void fillData() {
