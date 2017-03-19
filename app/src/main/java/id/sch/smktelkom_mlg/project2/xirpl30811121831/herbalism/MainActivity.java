@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void click(View view) {
         ImageView head = (ImageView) findViewById(R.id.HeadImage);
-        Intent intent = new Intent(this, HeadActivity.class);
+        Intent intent = new Intent(getApplicationContext(), HeadActivity.class);
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, head, "HeadTransition");
         startActivity(intent, options.toBundle());
     }

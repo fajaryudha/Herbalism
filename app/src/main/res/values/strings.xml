@@ -91,4 +91,19 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string-array name="titles">
+        <item>Facebook</item>
+        <item>Google</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Facebook description</item>
+        <item>Google description</item>
+        <item>Twitter description</item>
+        <item>Instagram description</item>
+    </string-array>
+
+
 </resources>
