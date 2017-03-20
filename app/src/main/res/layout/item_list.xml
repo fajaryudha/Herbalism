@@ -2,7 +2,7 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="304dp"
+    android:layout_height="150dp"
     android:layout_gravity="center"
     android:layout_marginBottom="16dp"
     android:layout_marginLeft="16dp"
@@ -17,33 +17,41 @@
 
         <ImageView
             android:id="@+id/imageList"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:scaleType="centerCrop"
             android:src="@drawable/a"
             tools:src="@drawable/a" />
 
         <TextView
             android:id="@+id/textViewJudul"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/imageList"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@+id/imageList"
+            android:layout_toRightOf="@+id/imageList"
+            android:maxLines="1"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
-            android:textColor="@color/white"
             tools:text="Judul" />
 
         <TextView
             android:id="@+id/textViewDescripsi"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textViewJudul"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textViewJudul"
+            android:layout_toRightOf="@+id/imageList"
             android:ellipsize="end"
-            android:maxLines="1"
-            android:padding="16dp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:maxLines="4"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
             tools:text="@+id/Descripsi" />
 
         <Button
@@ -51,7 +59,8 @@
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textViewDescripsi"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imageList"
             android:text="Tips"
             android:textColor="@color/colorPrimaryDark" />
 
