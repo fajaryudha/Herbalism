@@ -1,8 +1,9 @@
 package id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism;
 
+import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -15,8 +16,9 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.adapter.HerbalismAdapter;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.Herbalism;
 
-public class HeadActivity extends AppCompatActivity {
+public class HeadActivity extends AppCompatActivity implements HerbalismAdapter.IHerbalismAdapter {
 
+    public static final String HERBALISM = "Herbalism";
     ArrayList<Herbalism> mList = new ArrayList<>();
     HerbalismAdapter mAdapter;
 
@@ -38,7 +40,7 @@ public class HeadActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.RecyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new HerbalismAdapter(mList);
+        mAdapter = new HerbalismAdapter(this, mList);
         recyclerView.setAdapter(mAdapter);
 
         fillData();
@@ -50,17 +52,29 @@ public class HeadActivity extends AppCompatActivity {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.places);
         String[] arDescripsi = resources.getStringArray(R.array.place_desc);
+        String[] arDetail = resources.getStringArray(R.array.place_details);
+        String[] arLokasi = resources.getStringArray(R.array.place_locations);
         TypedArray a = resources.obtainTypedArray(R.array.places_picture);
-        Drawable[] arFoto = new Drawable[a.length()];
+        String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
-            arFoto[i] = a.getDrawable(i);
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + '/'
+                    + resources.getResourceEntryName(id) + '/';
         }
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Herbalism(arJudul[i], arDescripsi[i], arFoto[i]));
+            mList.add(new Herbalism(arJudul[i], arDescripsi[i], arDetail[i], arLokasi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
 
+    @Override
+    public void doClick(int pos) {
+        Intent intent = new Intent(this, ListHeadActivity.class);
+        intent.putExtra(HERBALISM, mList.get(pos));
+        startActivity(intent);
+    }
 }

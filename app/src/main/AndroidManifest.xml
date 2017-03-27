@@ -22,6 +22,11 @@
             android:label="@string/title_activity_head"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ListHeadActivity"
+            android:label="Kepala"
+            android:parentActivityName=".HeadActivity"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

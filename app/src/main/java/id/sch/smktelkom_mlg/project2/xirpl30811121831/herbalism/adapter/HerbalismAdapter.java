@@ -1,5 +1,7 @@
 package id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.adapter;
 
+import android.content.Context;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,9 +21,11 @@ import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.Herbalism;
 public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.ViewHolder> {
 
     ArrayList<Herbalism> herbalismList;
+    IHerbalismAdapter mIHerbalismAdapter;
 
-    public HerbalismAdapter(ArrayList<Herbalism> herbalismList) {
+    public HerbalismAdapter(Context context, ArrayList<Herbalism> herbalismList) {
         this.herbalismList = herbalismList;
+        mIHerbalismAdapter = (IHerbalismAdapter) context;
     }
 
     @Override
@@ -37,8 +41,7 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
 
         Herbalism herbalism = herbalismList.get(position);
         holder.tvJudul.setText(herbalism.Judul);
-        holder.tvDescripsi.setText(herbalism.Descripsi);
-        holder.ivFoto.setImageDrawable(herbalism.Foto);
+        holder.ivFoto.setImageURI(Uri.parse(herbalism.Foto));
 
     }
 
@@ -49,16 +52,24 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
         return 0;
     }
 
+    public interface IHerbalismAdapter {
+        void doClick(int pos);
+    }
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView ivFoto;
         TextView tvJudul;
-        TextView tvDescripsi;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageList);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-            tvDescripsi = (TextView) itemView.findViewById(R.id.textViewDescripsi);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    mIHerbalismAdapter.doClick(getAdapterPosition());
+                }
+            });
         }
     }
 }
