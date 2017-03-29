@@ -1,5 +1,26 @@
 <resources>
     <string name="app_name">Herbalism</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello!</string>
+    <string name="slide_1_desc">Ini Slide 1</string>
+
+    <string name="slide_2_title">Hellaw</string>
+    <string name="slide_2_desc">Ini Slide 2</string>
+
+    <string name="slide_3_title">Hellu</string>
+    <string name="slide_3_desc">Ini Slide 3</string>
+
+    <string name="slide_4_title">Heyhey</string>
+    <string name="slide_4_desc">Ini Slide 4</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
     <string name="title_activity_head">HeadActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
