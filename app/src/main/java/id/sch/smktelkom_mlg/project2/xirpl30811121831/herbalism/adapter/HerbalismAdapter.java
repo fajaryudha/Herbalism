@@ -6,6 +6,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -20,11 +22,14 @@ import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.Herbalism;
 
 public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.ViewHolder> {
 
+    private int lastposition = -1;
+    private Context context;
     ArrayList<Herbalism> herbalismList;
     IHerbalismAdapter mIHerbalismAdapter;
 
     public HerbalismAdapter(Context context, ArrayList<Herbalism> herbalismList) {
         this.herbalismList = herbalismList;
+        this.context = context;
         mIHerbalismAdapter = (IHerbalismAdapter) context;
     }
 
@@ -42,7 +47,15 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
         Herbalism herbalism = herbalismList.get(position);
         holder.tvJudul.setText(herbalism.Judul);
         holder.ivFoto.setImageURI(Uri.parse(herbalism.Foto));
+        setAnimation(holder.itemView,position);
+    }
 
+    private void setAnimation(View itemView, int position) {
+        if (position>lastposition) {
+            Animation animation = AnimationUtils.loadAnimation(context,R.animator.up_from_bottom);
+            itemView.startAnimation(animation);
+            lastposition = position;
+        }
     }
 
     @Override
@@ -64,6 +77,7 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageList);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -71,5 +85,11 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
                 }
             });
         }
+    }
+
+    @Override
+    public void onViewDetachedFromWindow(ViewHolder holder) {
+        super.onViewDetachedFromWindow(holder);
+        holder.itemView.clearAnimation();
     }
 }
