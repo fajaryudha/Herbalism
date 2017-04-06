@@ -20,7 +20,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HeadActivity"
             android:label="@string/title_activity_head"
@@ -31,7 +31,9 @@
             android:label="Kepala"
             android:parentActivityName=".HeadActivity"
             android:theme="@style/AppTheme" />
-
+        <activity android:name=".BodyActivity" />
+        <activity android:name=".HandActivity" />
+        <activity android:name=".LegActivity"></activity>
     </application>
 
 </manifest>

@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Html;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -59,6 +58,34 @@ public class MainActivity extends AppCompatActivity {
         ImageView head = (ImageView) findViewById(R.id.HeadImage);
         Intent intent = new Intent(getApplicationContext(), HeadActivity.class);
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, head, "HeadTransition");
+        startActivity(intent, options.toBundle());
+    }
+
+    public void onBody(View view) {
+        ImageView body = (ImageView) findViewById(R.id.BodyImage);
+        Intent intent = new Intent(getApplicationContext(), BodyActivity.class);
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, body, "HeadTransition");
+        startActivity(intent, options.toBundle());
+    }
+
+    public void onLeftHand(View view) {
+        ImageView lh = (ImageView) findViewById(R.id.LeftHandImage);
+        Intent intent = new Intent(getApplicationContext(), HandActivity.class);
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, lh, "HeadTransition");
+        startActivity(intent, options.toBundle());
+    }
+
+    public void onRightHand(View view) {
+        ImageView rh = (ImageView) findViewById(R.id.RightHandImage);
+        Intent intent = new Intent(getApplicationContext(), HandActivity.class);
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, rh, "HeadTransition");
+        startActivity(intent, options.toBundle());
+    }
+
+    public void onLeg(View view) {
+        ImageView leg = (ImageView) findViewById(R.id.LegImage);
+        Intent intent = new Intent(getApplicationContext(), LegActivity.class);
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, leg, "HeadTransition");
         startActivity(intent, options.toBundle());
     }
 }
