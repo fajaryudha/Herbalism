@@ -2,21 +2,21 @@
     <string name="app_name">Herbalism</string>
 
     <string name="title_activity_welcome">Home Screen</string>
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">SELESAI</string>
 
-    <string name="slide_1_title">Hello!</string>
-    <string name="slide_1_desc">Ini Slide 1</string>
+    <string name="slide_1_title">Selamat Datang di Herbalism!</string>
+    <string name="slide_1_desc">Aplikasi kesehatan yang memuat penyakit yang terjadi di kehidupan sehari - hari Anda</string>
 
-    <string name="slide_2_title">Hellaw</string>
-    <string name="slide_2_desc">Ini Slide 2</string>
+    <string name="slide_2_title">Resep Obat Tradisional</string>
+    <string name="slide_2_desc">Tenemukan obat tradisional sekaligus penjelasan untuk mengobati penyakit Anda</string>
 
-    <string name="slide_3_title">Hellu</string>
-    <string name="slide_3_desc">Ini Slide 3</string>
+    <string name="slide_3_title">Konten Berbagi</string>
+    <string name="slide_3_desc">Tekan tombol share untuk berbagi informasi yang diinginkan pada orang terdekat Anda</string>
 
-    <string name="slide_4_title">Heyhey</string>
-    <string name="slide_4_desc">Ini Slide 4</string>
+    <string name="slide_4_title">Aplikasi Siap Digunakan!</string>
+    <string name="slide_4_desc">Terima Kasih karena telah mendownload aplikasi ini! Semoga Bermanfaat!</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
