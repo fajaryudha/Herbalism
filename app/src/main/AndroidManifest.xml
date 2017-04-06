@@ -31,6 +31,7 @@
             android:label="Kepala"
             android:parentActivityName=".HeadActivity"
             android:theme="@style/AppTheme" />
+        <activity android:name=".AboutUsActivity"></activity>
 
     </application>
 

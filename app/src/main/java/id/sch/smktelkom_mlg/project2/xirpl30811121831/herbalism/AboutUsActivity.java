@@ -28,8 +28,7 @@ public class AboutUsActivity extends AppCompatActivity {
             startActivity(likeIng);
         } catch (ActivityNotFoundException e) {
             startActivity(new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("http://instagram.com/_u/dianofika")));
+                    Uri.parse("http://instagram.com/_u/fitriamelaagnes_/")));
         }
     }
-
 }

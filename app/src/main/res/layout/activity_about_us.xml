@@ -39,7 +39,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:onClick="Instagram1"
+                    android:onClick="instagram1"
                     android:backgroundTint="@color/bg_screen3"
                     android:scaleType="centerInside"
                     android:src="@drawable/intagram"
