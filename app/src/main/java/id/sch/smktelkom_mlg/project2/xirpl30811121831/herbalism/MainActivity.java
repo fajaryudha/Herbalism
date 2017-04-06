@@ -11,8 +11,11 @@ import android.widget.Toast;
 import com.github.clans.fab.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
+
     FloatingActionButton menu1,menu2,menu3 ;
     ImageView head;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
     }
 
     public void click(View view) {
