@@ -10,8 +10,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="16dp"
-    android:paddingLeft="16dp"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.AboutUsActivity">
 
     <LinearLayout
@@ -39,24 +37,25 @@
                 android:paddingRight="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <ImageButton
                     android:onClick="Instagram1"
-                    android:backgroundTint="@color/dot_light_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
                 <ImageButton
                     android:id="@+id/telp1"
                     android:layout_width="45dp"
-                    android:layout_height="wrap_content"
-                    android:backgroundTint="@color/dot_dark_screen2"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_screen2"
                     android:onClick="Telp1"
                     android:scaleType="centerInside"
-                    android:src="@drawable/telp" />
+                    android:src="@drawable/oy" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -94,9 +93,9 @@
 
                 <ImageButton
                     android:onClick="Instagram2"
-                    android:backgroundTint="@color/dot_light_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
@@ -105,9 +104,9 @@
                     android:onClick="Telp2"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="@color/dot_dark_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/telp" />
+                    android:src="@drawable/oy" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -141,9 +140,9 @@
 
                 <ImageButton
                     android:onClick="Instagram3"
-                    android:backgroundTint="@color/dot_light_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
@@ -152,9 +151,9 @@
                     android:onClick="Telp3"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="@color/dot_dark_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/telp" />
+                    android:src="@drawable/oy" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -188,9 +187,9 @@
 
                 <ImageButton
                     android:onClick="Instagram4"
-                    android:backgroundTint="@color/dot_light_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
@@ -199,9 +198,9 @@
                     android:onClick="Telp4"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="@color/dot_dark_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/telp" />
+                    android:src="@drawable/oy" />
 
             </LinearLayout>
         </LinearLayout>
@@ -236,9 +235,9 @@
 
                 <ImageButton
                     android:onClick="Instagram5"
-                    android:backgroundTint="@color/dot_light_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
@@ -246,9 +245,9 @@
                     android:id="@+id/telp5"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="@color/dot_dark_screen2"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/telp" />
+                    android:src="@drawable/oy" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

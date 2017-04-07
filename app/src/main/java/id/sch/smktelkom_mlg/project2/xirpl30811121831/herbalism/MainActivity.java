@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         menu1 = (FloatingActionButton)findViewById(R.id.subFloatingMenu1) ;
-        menu2 = (FloatingActionButton)findViewById(R.id.subFloatingMenu2) ;
         menu3 = (FloatingActionButton)findViewById(R.id.subFloatingMenu3) ;
 
         menu1.setOnClickListener(new View.OnClickListener() {
@@ -34,15 +33,6 @@ public class MainActivity extends AppCompatActivity {
                         "Hey check out my app at: https://play.google.com/store/apps/details?id=com.google.android.apps.plus");
                 sendIntent.setType("text/plain");
                 startActivity(sendIntent);
-            }
-        });
-
-        menu2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Toast.makeText(MainActivity.this , "BackUp Icon clicked", Toast.LENGTH_LONG).show();
-
             }
         });
 
