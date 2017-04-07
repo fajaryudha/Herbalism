@@ -33,7 +33,7 @@ public class ListBodyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.body_layout);
+        setContentView(R.layout.head_layout);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Herbalism herbalism = (Herbalism) getIntent().getSerializableExtra(HeadActivity.HERBALISM);
@@ -42,35 +42,45 @@ public class ListBodyActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.myRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        adapter = new MyAdapter(this, initData());
+        MyAdapter adapter = new MyAdapter(this, initData());
         adapter.setParentClickableViewAnimationDefaultDuration();
         adapter.setParentAndIconExpandOnClick(true);
+
         recyclerView.setAdapter(adapter);
     }
 
-    public List<ParentObject> initData() {
+    private List<ParentObject> initData() {
+        //TitleCreator titleCreator = TitleCreator.get(this);
+        //List<TitleParent> tiles = titleCreator.getAll();
+        //List<ParentObject> parentObject = new ArrayList<>();
+        //for (TitleParent title : tiles) {
+        //   List<Object> childList = new ArrayList<>();
+        //   childList.add(new TitleChild("Add to contact", "Send Message"));
+        //   title.setChildObjectList(childList);
+        //  parentObject.add(title);
+        //}
+        //return parentObject;
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.places);
+        String[] arPenyakit = resources.getStringArray(R.array.places_coba);
 
         List<TitleParent> _titleParent;
         _titleParent = new ArrayList<>();
+        List<TitleParent> titles = _titleParent;
+        List<ParentObject> parentObject = new ArrayList<>();
 
         for (int i = 0; i < arJudul.length; i++) {
             TitleParent title = new TitleParent(arJudul[i]);
             _titleParent.add(title);
         }
-        List<TitleParent> tiles = _titleParent;
-        List<ParentObject> parentObject = new ArrayList<>();
-        for (TitleParent title : tiles) {
+
+        for (int j = 0; j < arPenyakit.length - 1; j++)
+            for (TitleParent title : titles) {
             List<Object> childList = new ArrayList<>();
-            childList.add(new TitleChild("Penyakit", "Penyebab"));
+                childList.add(new TitleChild(arPenyakit[j], arPenyakit[j]));
             title.setChildObjectList(childList);
             parentObject.add(title);
         }
-
-        adapter.notifyDataSetChanged();
         return parentObject;
-
     }
-
 }
