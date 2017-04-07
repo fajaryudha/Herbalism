@@ -111,6 +111,7 @@
         <item>@drawable/usus</item>
         <item>@drawable/ginjal</item>
         <item>@drawable/pankreas</item>
+        <item>@drawable/pankreas</item>
         <item>@drawable/anus</item>
     </array>
     <string-array name="places_coba">
