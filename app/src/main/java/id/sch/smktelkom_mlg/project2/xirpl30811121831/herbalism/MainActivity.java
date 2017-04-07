@@ -6,7 +6,6 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.github.clans.fab.FloatingActionButton;
 
@@ -67,14 +66,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, lh, "HeadTransition");
         startActivity(intent, options.toBundle());
     }
-
-    public void onRightHand(View view) {
-        ImageView rh = (ImageView) findViewById(R.id.RightHandImage);
-        Intent intent = new Intent(getApplicationContext(), HandActivity.class);
-        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, rh, "HeadTransition");
-        startActivity(intent, options.toBundle());
-    }
-
+    
     public void onLeg(View view) {
         ImageView leg = (ImageView) findViewById(R.id.LegImage);
         Intent intent = new Intent(getApplicationContext(), LegActivity.class);

@@ -114,4 +114,24 @@
         <item>@drawable/pankreas</item>
         <item>@drawable/anus</item>
     </array>
+    <string-array name="places_coba">
+        <item>Ini adalah penjelasan1</item>
+        <item>Ini adalah obat2</item>
+        <item>Ini adalah penjelasan lagi3</item>
+        <item>Ini adalah obat lagi4</item>
+        <item>Ini adalah penjelasan lagi5</item>
+        <item>Ini adalah obat lagi6</item>
+        <item>Ini adalah penjelasan lagi7</item>
+        <item>Ini adalah obat lagi8</item>
+    </string-array>
+    <string-array name="places_coba1">
+        <item>Ini Lagi1</item>
+        <item>Ini Lagi2</item>
+        <item>Ini Lagi3</item>
+        <item>Ini Lagi4</item>
+        <item>Ini Lagi5</item>
+        <item>Ini Lagi6</item>
+        <item>Ini Lagi7</item>
+        <item>Ini Lagi8</item>
+    </string-array>
 </resources>

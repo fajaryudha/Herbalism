@@ -5,70 +5,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/women3"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingBottom="0dp"
+        android:weightSum="1">
 
         <ImageView
             android:id="@+id/HeadImage"
-            android:layout_width="68dp"
-            android:layout_height="53dp"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_margin="0dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="true"
+            android:elevation="2dp"
             android:onClick="click"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
             android:transitionName="HeadTransition"
-            app:srcCompat="@drawable/ic_android_black_24dp"
+            app:srcCompat="@drawable/w1"
             tools:layout_editor_absoluteX="158dp"
             tools:layout_editor_absoluteY="81dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:weightSum="0">
 
             <ImageView
                 android:id="@+id/LeftHandImage"
-                android:layout_width="68dp"
-                android:layout_height="55dp"
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
                 android:layout_gravity="left"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="false"
+                android:cropToPadding="false"
+                android:elevation="0dp"
+                android:foregroundGravity="fill"
                 android:onClick="onLeftHand"
+                android:outlineProvider="none"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
                 android:transitionName="HeadTransition"
-                app:srcCompat="@drawable/ic_android_black_24dp" />
+                app:srcCompat="@drawable/w2"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="81dp" />
 
-            <ImageView
-                android:id="@+id/BodyImage"
-                android:layout_width="68dp"
-                android:layout_height="55dp"
-                android:layout_gravity="center"
-                android:onClick="onBody"
-                android:transitionName="HeadTransition"
-                app:srcCompat="@drawable/ic_android_black_24dp" />
-
-            <ImageView
-                android:id="@+id/RightHandImage"
-                android:layout_width="68dp"
-                android:layout_height="55dp"
-                android:layout_gravity="right"
-                android:onClick="onRightHand"
-                android:transitionName="HeadTransition"
-                app:srcCompat="@drawable/ic_android_black_24dp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:baselineAligned="true"
+            android:orientation="vertical"
+            android:weightSum="0">
+
+            <ImageView
+                android:id="@+id/BodyImage"
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="true"
+                android:elevation="0dp"
+                android:foregroundGravity="fill"
+                android:onClick="onBody"
+                android:outlineProvider="none"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
+                android:transitionName="HeadTransition"
+                app:srcCompat="@drawable/w3"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="81dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="true"
+            android:orientation="vertical"
+            android:weightSum="0">
 
             <ImageView
                 android:id="@+id/LegImage"
-                android:layout_width="68dp"
-                android:layout_height="55dp"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/FloatingActionMenu1"
+                android:layout_alignLeft="@+id/FloatingActionMenu1"
+                android:layout_alignStart="@+id/FloatingActionMenu1"
                 android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:adjustViewBounds="true"
+                android:baselineAlignBottom="true"
+                android:elevation="0dp"
                 android:onClick="onLeg"
+                android:padding="0dp"
+                android:scaleType="fitCenter"
                 android:transitionName="HeadTransition"
-                app:srcCompat="@drawable/ic_android_black_24dp" />
-
+                app:srcCompat="@drawable/w4"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="81dp" />
         </LinearLayout>
 
 
@@ -138,4 +183,5 @@
             fab:fab_label="Sub Menu Item 3"
             fab:fab_size="mini" />
     </com.github.clans.fab.FloatingActionMenu>
+
 </RelativeLayout>

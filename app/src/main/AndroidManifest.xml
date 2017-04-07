@@ -20,6 +20,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".HeadActivity"
@@ -29,6 +30,11 @@
         <activity
             android:name=".ListHeadActivity"
             android:label="Organ Kepala"
+            android:parentActivityName=".HeadActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListBodyActivity"
+            android:label="Organ Tubuh"
             android:parentActivityName=".HeadActivity"
             android:theme="@style/AppTheme" />
         <activity android:name=".AboutUsActivity"

@@ -64,7 +64,7 @@ public class ListHeadActivity extends AppCompatActivity {
         List<ParentObject> parentObject = new ArrayList<>();
         for (TitleParent title : tiles) {
             List<Object> childList = new ArrayList<>();
-            childList.add(new TitleChild("Penyakit", "Penyebab"));
+            childList.add(new TitleChild("Penyakit", "Penyebab", "Waya", "O"));
             title.setChildObjectList(childList);
             parentObject.add(title);
         }
