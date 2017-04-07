@@ -1,6 +1,8 @@
 package id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism;
 
+import android.content.ContentResolver;
 import android.content.res.Resources;
+import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -63,6 +65,17 @@ public class ListBodyActivity extends AppCompatActivity {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.places);
         String[] arPenyakit = resources.getStringArray(R.array.places_coba);
+        String[] arPenyakit1 = resources.getStringArray(R.array.places_coba1);
+        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+        String[] arFoto = new String[a.length()];
+        for (int i = 0; i < arFoto.length; i++) {
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + '/'
+                    + resources.getResourceEntryName(id) + '/';
+        }
+        a.recycle();
 
         List<TitleParent> _titleParent;
         _titleParent = new ArrayList<>();
@@ -72,15 +85,16 @@ public class ListBodyActivity extends AppCompatActivity {
         for (int i = 0; i < arJudul.length; i++) {
             TitleParent title = new TitleParent(arJudul[i]);
             _titleParent.add(title);
+            for (int j = 0; j < arPenyakit.length - 7; j++) {
+                //for (TitleParent titlel : titles) {
+                List<Object> childList = new ArrayList<>();
+                childList.add(new TitleChild(arPenyakit[i], arPenyakit1[i], arPenyakit1[i], arFoto[i]));
+                title.setChildObjectList(childList);
+                parentObject.add(title);
+                //}
+            }
         }
 
-        for (int j = 0; j < arPenyakit.length - 1; j++)
-            for (TitleParent title : titles) {
-            List<Object> childList = new ArrayList<>();
-                childList.add(new TitleChild(arPenyakit[j], arPenyakit[j]));
-            title.setChildObjectList(childList);
-            parentObject.add(title);
-        }
         return parentObject;
     }
 }
