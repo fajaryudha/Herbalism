@@ -17,12 +17,12 @@ import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.TitleChild
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.TitleParent;
 
 /**
- * Created by Smktelkom on 3/16/2017.
+ * Created by MHRJ on 4/7/2017.
  */
 
-public class ListHeadActivity extends AppCompatActivity {
-
+public class ListBodyActivity extends AppCompatActivity {
     RecyclerView recyclerView;
+    MyAdapter adapter;
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -33,7 +33,7 @@ public class ListHeadActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.head_layout);
+        setContentView(R.layout.body_layout);
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Herbalism herbalism = (Herbalism) getIntent().getSerializableExtra(HeadActivity.HERBALISM);
@@ -42,16 +42,15 @@ public class ListHeadActivity extends AppCompatActivity {
         recyclerView = (RecyclerView) findViewById(R.id.myRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        MyAdapter adapter = new MyAdapter(this, initData());
+        adapter = new MyAdapter(this, initData());
         adapter.setParentClickableViewAnimationDefaultDuration();
         adapter.setParentAndIconExpandOnClick(true);
-
         recyclerView.setAdapter(adapter);
     }
 
-    private List<ParentObject> initData() {
+    public List<ParentObject> initData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.places1);
+        String[] arJudul = resources.getStringArray(R.array.places);
 
         List<TitleParent> _titleParent;
         _titleParent = new ArrayList<>();
@@ -68,6 +67,10 @@ public class ListHeadActivity extends AppCompatActivity {
             title.setChildObjectList(childList);
             parentObject.add(title);
         }
+
+        adapter.notifyDataSetChanged();
         return parentObject;
+
     }
+
 }
