@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_mulut">
+        <item>Sariawan</item>
+	<item>Sakit Gigi</item>
+    </string-array>
+	
+<string-array name="arti_mulut">
+        <item>Sariawan adalah infeksi pada lapisan mulut yang disebabkan oleh jamur Candida albicans. Sariawan merupakan salah satu permasalahan mulut yang sering dialami oleh banyak orang. </item>
+	<item>Sakit gigi adalah kondisi ketika muncul rasa nyeri di dalam atau sekitar gigi dan rahang. Tingkat keparahan nyeri tersebut bisa bervariasi, mulai dari ringan hingga parah. Nyeri sakit gigi bisa terasa secara terus-menerus sepanjang hari atau bisa muncul dan hilang secara berulang-ulang tanpa menentu.</item>
+       
+    </string-array>
+
+    <string-array name="obat_mulut">
+        <item>
+1.	Kulit manggis
+Gunakan kulit manggis sebagai obat sariawan tradisional paling ampuh untuk mengobati sariawan. Manggis memiliki fungsi yang baik yang mampu mengurangi radikal bebas serta inflamasi. Siapkan saja 2 buah kulit manggis yang telah dicuci sampai bersih dan dipotong-potong setelah itu rebus kulit manggis dengan 3 gelas air sampai tersisa setengahnya saja, saring air rebusan kulit manggis baru kemudian manfaatkan air rebusan ini sebagai obat kumur-kumur.
+2.	Air kelapa
+Tidak banyak yang menyadarinya jika air kelapa bisa menjadi obat tradisional sariawan di lidah, kandungan alami yang ada di dalam air kelapa berfungsi dengan baik untuk menyembuhkan sariawan yang ada di lidah, Anda hanya perlu berkumur atau meminum air kelapa.
+3.	Kunyit
+Obat herbal sariawan mulut yang terbuat dari kunyit terbukti efektif untuk mengatasi sariawan dan menyembuhkan luka akibat sariawan dengan lebih cepat. Anda hanya perlu mengoleskan tumbuhkan kunyit halus yang sudah dicampurkan dengan gliserin pada luka sariawan yang ada di mulut. Lakukan perawatan ini beberapa kali untuk mendapatkan hasil yang paling ampuh dan cepat.
+4.	Jambu air
+Atasi sariawan yang mengganggu dengan menggunakan jambu air. Cukup dengan mengupas kulit jambu air untuk kemudian dihaluskan dan diberi air matang secukupnya, gunakan air perasan dari tumbukan bahan alami ini sebagai obat kumur.
+5.	Tomat
+Kandungan vitamin C yang ada di dalam tomat mampu menyembuhkan sariawan, cukup dengan mengiris tipis tomat segar untuk kemudian ditempelkan pada luka sariawan yang ada di mulut atau di lidah, cara termudah adalah mengkonsumsi tomat secara langsung sebagai camilan sehat.
+6.	Daun kemangi
+Kebiasaan Anda lalap dengan daun kemangi akan memberikan manfaat yang positif, karena kandungan alami yang dimiliki oleh daun kemangi efektif untuk mengatasi sariawan. Cukup dengan mengunyah daun kemangi atau berkumurlah dengan menggunakan daun kemangi.
+	</item>
+	
+ <item>
+1.	Daun Inggu Kering
+Bahan: 2 - 4 gram daun inggu kering dan 2 cangkir (ukuran sedang) air bersih
+Cara pengobatan: Rebus daun inggu kering ke dalam panci yang terisi 2 gelas air sampai mendidih. Saring air dari daunnya, kemudian tunggu hangat dan gunakan ramuan untuk berkumur beberapa kali.
+2.	Minyak Batok Kelapa
+Bahan: Batok kelapa yang telah terbagi dua dan kapas secukupnya.
+Cara pengobatan: Ambil satu bagian batok kelapa, kemudian bakar sampai keluar minyaknya. Ambil minyak batok kelapa menggunakan kapas, lalu tempelkan pada gigi yang sakit. Sehabis itu Anda akan kaget karena reaksi dari obat ini cukup cepat, rasa sakit pada gigi akan hilang hanya dalam beberapa menit.
+3.	Daun Sirih dan Cengkeh
+Bahan: Daun sirih dan cengkeh secukupnya.
+Cara pengobatan: Rebus kedua bahan, kemudian gunakan untuk berkumur beberapa kali. Jika Anda merasa belum mampu membuat ramuan ini, obat kumur dari campuran cengkeh dan daun sirih ini bisa Anda beli di pasar.
+4.	Bawang Putih
+Bahan: Bawang putih (1 butir).
+Cara pengobatan: Kupas kulit luar bawang putih, setelah itu tumbuk hingga halus. Tempelkan tumbukan bawang putih pada bagian gigi luar yang sakit.
+Cara pengobatan 2: Cuci bawang putih dengan air hangat. Kunyah bawang putih mentah selama beberapa menit, kemudian buang dan bakteri penyebab sakit gigi akan mati.
+5.	Minyak Cengkeh
+Bahan: Minyak cengkeh secukupnya.
+Cara pengobatan: Gunakan minyak cengkeh dengan cara meneteskannya pada gigi yang sakit menggunakan kapas atau cotton bud (ditempel-tempel). Setelah rasa sakit hilang (kira-kira 30 menit), barulah berkumur dengan air hangat.
+	</item>
+    </string-array>
+ 
+    <array name="sebab_mulut">
+        <item>@drawable/sariawan</item>
+        <item>@drawable/sakitGigi</item>
+    </array>
+</resources>

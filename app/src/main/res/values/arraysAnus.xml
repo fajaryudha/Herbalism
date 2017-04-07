@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_anus">
+        <item>Diare</item>
+	<item>Wasir</item>
+    </string-array>
+
+<string-array name="arti_anus">
+        <item>Diare merupakan kondisi yang ditandai dengan encernya tinja yang dikeluarkan dengan frekuensi buang air besar (BAB) yang lebih sering dibandingkan dengan biasanya. Pada umumnya, diare terjadi akibat konsumsi makanan atau minuman yang terkontaminasi bakteri, virus, atau parasit. Biasanya diare hanya berlangsung beberapa hari, namun pada sebagian kasus memanjang hingga berminggu-minggu.</item>
+	<item>Wasir atau hemoroid adalah pembengkakan yang berisi pembuluh darah yang membesar. Pembuluh darah yang terkena wasir berada di dalam atau di sekitar bokong, yaitu di dalam rektum atau di dalam anus.</item>   
+ </string-array>
+	
+<string-array name="obat_anus">
+<item>
+Mengobati penyakit Diare dengan Yogurt
+Yogurt mengandung bakteri baik, terutama bakteri hidup seperti Lactobacillus acidophilus dan Bifidobacterium. Ia akan membantu memulihkan bakteri ‘baik’ dalam usus dan menghancurkan bakteri ‘buruk’ menyebabkan diare. 
+Aturan Pakai : 
+Menggunakan dua gelas kecil atau kemasan yogurt perhari sudah dapat melegakan keluhan diare yang Anda alami. Bisa juga ditambah dengan mengonsumsi pisang untuk hasil yang lebih baik.
+
+Mengobati penyakit Diare dengan Jahe
+Cara Membuat 1 :
+•	Sediakan sepotong kecil jahe bersih kemudian parut. 
+•	Lalu tambahkan satu sendok teh madu. 
+•	Kemudian bisa langsung dikonsumsi. Hindari minum air segera setelah memakannya.
+
+Cara Membuat 2 :
+•	Siapkan beberapa potong jahe ukuran sedang, iris-iris dengan ukuran sesuai selera
+•	kemudian rebuslah dengan air secukupnya sampai mendidih
+•	saring, tunggu hingga hangat kuku lalu tambahkan madu sebelum diminum.
+
+
+Mengobati penyakit Diare dengan Oralit
+Cara Membuat :
+	Siapkan segelas (200 ml) seukuran belimbing air matang, 2 sendok teh gula pasir, 1/2 sedok teh garam dapur
+	Kemudian ketiga bahan dicampur menjadi satu dan aduk untuk melarutkan garam dan gula.
+
+Ketentuan atau aturan atau dosis dalam meminum obat adalah sebagai berikut : 
+	Usia kurang dari 1 tahun diberikan obat setelah 3 jam diketahui mengalami diare sebanyak 1 1/2 gelas, dilanjutkan pemberian setelah BAB sebanyak 1/2 gelas.
+	Usia antara 1 - 4 tahun diberikan obat setelah 3 jam diketahui diare sebanyak 3 gelas, diberikan kembali setelah BAB dengan takaran 1 gelas.
+	Usia antara 5 - 12 tahun diberikan 6 gelas obat setelah 3 jam diketahui diare, kemudian 1 1/2 gelas setelah BAB.
+	Pada orang dewasa, butuh 12 gelas obat diare setelah 3 jam diketahui, dan 5 gelas pemberian obat sehabis BAB.
+
+Mengobati penyakit Diare dengan Daun Kayu Putih
+Cara Membuat :
+	Siapkan 6 - 10 gram daun kayu putih kering dan 2 gelas air tawar
+	Didihkan 2 gelas air, kemudian masukkan daun kayu putih kering.
+	Tunggu hingga air tersisa 1 gelas, minum 1 hari 1 gelas rutin sampai diare sembuh.
+
+Mengobati penyakit Diare dengan Bubuk Kulit Kayu Manis
+Cara Membuat : 
+•	Siapkan 1 1/2 gram bubuk kulit kayu manis dan air panas secukupnya
+•	Seduh bubuk kulit kayu manis di dalam air panas, kemudian saring airnya.
+•	Tunggu dingin, minum sehari 2 kali masing-masing 1 gelas.
+
+</item>
+
+<item>
+Mengobati penyakit Wasir dengan Daun Jambu Biji
+Cara Membuat :
+•	Ambil beberapa lembar daun jambu biji lalu cuci bersih
+•	Tambahkan satu buah pisang batu dengan kulitnya, kemudian haluskan dan peras airnya.
+•	Minum air perasan tersebut secara rutin untuk mengobati wasir. 
+
+Mengobati penyakit Wasir dengan Kangkung
+Cara Membuat : 
+•	Ambil beberapa tangkai kangkung dengan daunnya lalu cuci bersih.
+•	Haluskan dengan blender lalu saring airnya. Tambahkan sebutir telur ayam kampung dan sedikit garam ke dalam air sari kangkung tadi.
+•	Minum sehari sekali sebelum tidur agar penyakit wasir atau ambeien Anda dapat segera sembuh. 
+
+</item>
+    </string-array>
+   
+    <array name="sebab_anus">
+        <item>@drawable/diare</item>
+	<item>@drawable/wasir</item>
+    </array>
+</resources>

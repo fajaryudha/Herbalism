@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_usus">
+        <item>Usus Buntu</item>
+	<item>Disentri</item>
+    </string-array>
+
+<string-array name="arti_usus">
+        <item>Penyakit usus buntu adalah peradangan atau pembengkakan apendiks atau usus buntu.  Sedangkan usus buntu adalah organ berbentuk kantong kecil dan tipis berukuran 5 hingga 10 cm yang terhubung pada usus besar. Hingga saat ini, alasan kenapa kita memiliki usus buntu masih belum diketahui.</item>
+	<item>Disentri adalah infeksi pada usus yang menyebabkan diare yang disertai darah atau lendir. Diare merupakan buang air besar encer dengan frekuensi yang lebih sering dari biasanya. Di samping diare, gejala disentri lainnya meliputi kram perut, mual atau muntah, serta demam.</item>
+</string-array>
+	
+<string-array name="obat_usus">
+<item>
+Ramuan Pertama
+Cara membuatnya :
+	Siapkan 2 buah mengkudu dan madu satu sendok makan
+	Cuci bersih buah mengkudu, kemudian di parut untuk disaring diambil airnya
+	Tambahkan madu, aduk rata
+	Konsumsi 2x sehari, masing – masing dua sendok makan
+
+Ramuan Kedua
+Cara membuatnya :
+	Siapkan daun Jambu kluthuk 10 lembar, setengah potong arang dari pohon kayu jati dan air untuk merebus 1 gelas
+	Cuci dahulu bahannya, kemudian rebus hingga mendidih
+	Biarkan airnya tersisa setengahnya
+	Air rebusan disaring, dan dikonsumsi sekaligus
+	Lakukan seminggu2x
+
+Ramuan Ketiga
+Cara membuatnya :
+	Siapkan daun pegagan dan rumput krokot secukupnya, serta air untuk merebus sebanyak 4 cangkir
+	Cuci dahulu bahannya, rebus sampai mendidih
+	Saring air rebusan, dan diminum sehari tiga kali
+
+Ramuan Keempat
+Cara Membuatnya :
+	Siapkan air jeruk dua sendok makan, gula merah secukupnya, kunyit tiga ruas, sedikit garam serta air matang satu gelas
+	Cuci kunyit terlebih dahulu, kemudian parut untuk diambil sarinya
+	Campurkan air kunyit, air jeruk nipis, gula merah serta sedikit garam kedalam segelas air matang
+	Aduk rata, konsumsi secara teratur
+
+Ramuan Kelima
+Cara membuatnya :
+	Siapkan daun belimbing secukupnya dan air hangat
+	Cuci daun belimbing kemudian haluskan, masukkan sedikit air lalu diperas untuk diambil sarinya.
+	Seduh menggunakan air hangat setengah gelas.
+	Konsumsi sehari 2x, setiap pagi dan malam hari
+
+</item>
+
+<item>
+Mengobati penyakit Disentri dengan Kulit Pohon Srikaya
+Cara Membuat :
+	Ambil kulit batang srikaya dengan panjang sejengkal. 
+	Setelah dicuci dan dipotong-potong, rebus dengan 4 gelas air sampai tersisa 2 gelas.
+	Minum airnya bersama gula batu di pagi dan sore hari, sebanyak ½ gelas.
+
+Mengobati penyakit Disentri dengan Daun Alpukat
+Cara Membuat :
+	Ambil 5 gr daun alpukat, 6 gr kunyit, 5 gr rimpang temu kunci, 6 gr daun pegagan, dan ½ gr daun rasuk angin.
+	Seduh semua bahan tersebut ke dalam 115 ml air panas selama beberapa menit.
+	Minum airnya selagi hangat, setiap hari masing-masing sebanyak 100 ml.
+
+Mengobati penyakit Disentri dengan Delima
+Cara Membuat :
+	Ambil 50 gram kulit buah delima dan 250 ml susu. 
+	Rebus keduanya hingga mendidih selama 9 menit. 
+	Minum ramuan alami ini selagi hangat. 
+Mengobati penyakit Disentri dengan Daun Pulai
+Cara Membuat :
+	Sediakan 5 lembar daun pulai, sebutir gambir, dan kulit batang cemara secukupnya.
+	Tumbuk ketiga bahan sampai halus, tambahkan 2 sdm madu dan segelas air. 
+	Selanjutnya, peras dan saring untuk memisahkan ampasnya. 
+	Minum airnya, 2 kali sehari masing-masing sebanyak 2 sdm. 
+
+Mengobati penyakit Disentri dengan Kulit Buah Rambutan
+Cara Membuatnya :
+	Rebus 10 kulit buah rambutan bersama 3 gelas air hingga mendidih, dan airnya tersisa 1 ½ gelas saja. 
+	Minum airnya untuk 2 kali, di pagi dan petang hari ¾ gelas. 
+
+
+</item>
+    </string-array>
+   
+    <array name="sebab_jantung">
+        <item>@drawable/ususBuntu</item>
+	<item>@drawable/disentri</item>
+    </array>
+</resources>

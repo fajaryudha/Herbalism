@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_lambung">
+        <item>Maagh</item>
+	<item>Asam Lambung</item>
+    </string-array>
+
+<string-array name="arti_ginjal">
+        <item>Sakit maag (indigestion) adalah istilah yang menggambarkan nyeri yang berasal dari lambung, usus halus, atau bahkan kerongkongan akibat sejumlah kondisi. Sebutan lain sakit maag adalah dispepsia.</item>
+	<item>Penyakit asam lambung atau Gastroesophageal Reflux Disease (GERD) adalah kondisi yang ditandai dengan nyeri pada ulu hati atau sensasi terbakar di dada akibat naiknya asam lambung menuju esofagus. Esofagus yang juga dikenal sebagai kerongkongan adalah bagian dari saluran pencernaan yang menghubungkan mulut dan lambung. Penyakit asam lambung merupakan masalah kesehatan yang cukup umum terjadi di masyarakat</item>   
+ </string-array>
+	
+<string-array name="obat_ginjal">
+<item>
+Mengobati sakit maag dengan Kunyit
+Kunyit sangat berkhasiat untuk mengobati sakit maag, sebab kunyit banyak mengandung zat aktif seperti kurkumin dan minyak atsiri yang mampu menyembuhkan sakit maag.
+Cara Membuatnya :
+	Siapkan kunyit yang sudah dicuci bersih sebanyak 50Gram
+	Kemudian iris kecil lalu di parut
+	Tambahkan air panas
+	kemudian peras airnya
+	Minum perasan air kunyit tersebut sebanyak 2 kali sehari sampai sakit maag sembuh.
+
+Mengobati sakit maag dengan Madu dan lidah buaya
+Khasiat madu selain dapat meningkatkan kekebalan tubuh, madu juga berkhasiat untuk melindungi lambung dari bakteri dan kuman. Sedangkan lidah buaya mengandung minyak atsiri, zat aloebarbadiod dan aloemoedin yang mampu memperlancar sistem perncernaan.
+
+Cara Membuatnya :
+	Siapkan 500gram lidah buaya
+	Kemudian potong dan cuci bersih hingga lendirnya hilang (cuci di air yang mengalir)
+	Setelah bersih, haluskan lidah buaya menggunakan blender untuk dijadikan jus
+	Kemudian tambahkan madu secukupnya.
+	Minum ramuan obat sakit maag tradisional tersebut 2 kali sehari.
+
+Mengobati sakit maag dengan Buah alpukat dan daunnya
+Alpukat yang banyak terkandung vitamin A, B komplek, E dan D juga mampu mengatasi sakit maag, cukup mengkonsumsi alpukat secara mentah. Anda juga bisa membuatnya sebagai jus, namun jangan tambahkan dengan Gula. Selain buahnya, ternyata daun alpukat juga efektif untuk mengatasi sakit maag kronis. 
+
+Cara membuatnya :
+	Ambil 5 lembar daun alpukat kemudian rajang kecil kecil
+	Tambahkan air panas
+	Biarkan sampai air menjadi hangat dan air berubah warna
+	Kemudian minum ramuan tersebut saat masih hangat
+
+</item>
+
+<item>
+Mengobati sakit asam lambung dengan Mentimun
+Cara Membuat :
+	Pilih Mentimun yang masih segar. Pastikan kulit mentimun berwarna hijau tanpa bintik-bintik kuning atau hitam.
+	Iris memanjang mentimun setebal kurang lebih 1 cm. Makan 2 potong setiap 2 jam untuk menyembuhkan kelebihan asam lambung. Anda dapat makan irisan mentimun lebih banyak atau sedikit tergantung pada keparahan gejala.
+	Kupas kulit dan buang biji mentimun untuk menjaga kesegaran dan kandungan nutrisinya.
+	Campur mentimun dengan bahan-bahan lain yang juga berkhasiat meredakan keasaman lambung,seperti yogurt, wortel, mint, atau bawang putih mentah.
+
+Cara lain :
+	Campur 1 cangkir yoghurt dan setengah buah mentimun parut dengan garam, merica, dan bawang putih secukupnya.
+	Anda bisa mencampurkan saus ini pada salad atau roti untuk mencegah keasaman lambung.
+	Gunakan irisan mentimun dalam salad, tapi jangan terlalu banyak menggunakan cuka untuk menyembuhkan keasaman lambung. 
+
+Mengobati sakit asam lambung dengan Kunyit
+Cara membuat :
+	Siapkan kurang lebih 2 jari tangan kunyit.
+	Dikupas dan dibersihkan, diparut, dan ditambah air matang.
+	Setelah itu, diperas melalui kain bersih. Hasilnya didiamkan dan diambil airnya.
+	Dalam sehari diminum 2 kali, masing-masing satu ramuan.
+Meminumnya pagi sebelum makan dan malam sebelum tidur.
+
+
+</item>
+    </string-array>
+   
+    <array name="sebab_lambung">
+        <item>@drawable/maagh</item>
+	<item>@drawable/asamLambung</item>
+    </array>
+</resources>

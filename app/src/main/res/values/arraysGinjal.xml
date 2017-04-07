@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_ginjal">
+        <item>Batu Ginjal</item>
+	<item>Gagal Ginjal</item>
+    </string-array>
+
+<string-array name="arti_ginjal">
+        <item>Penyakit batu ginjal atau nefrolitiasis adalah suatu kondisi ketika material keras yang menyerupai batu terbentuk di dalam ginjal. Material tersebut berasal dari sisa zat-zat limbah di dalam darah yang disaring oleh ginjal yang kemudian mengendap dan mengkristal seiring waktu.</item>
+	<item>Penyakit ginjal kronis atau yang lebih dikenal di masyarakat dengan istilah gagal ginjal kronis (GGK) adalah kondisi saat fungsi ginjal mulai menurun secara bertahap. Status GGK berubah menjadi gagal ginjal tahap akhir (End-Stage Renal Disease/ESRD) ketika ginjal tidak lagi berfungsi. Pada stadium ini biasanya telah terjadi penumpukan limbah tubuh, cairan, dan elektrolit yang bisa membahayakan tubuh jika tanpa dilakukan penyaringan buatan (dialisis/cuci darah) atau transplantasi ginjal.</item>   
+ </string-array>
+	
+<string-array name="obat_ginjal">
+<item>
+Kumis kucing
+Di Indonesia, daun kumis kucing dipercaya mampu mengobati penyakit batu ginjal. Faktanya, hingga saat ini masih belum ada uji klinis langsung terhadap manusia untuk membuktikan efektivitas tanaman kumis kucing sebagai obat herbal batu ginjal. Oleh karena itu, disarankan untuk tidak mengonsumsi kumis kucing sebelum ada ada bukti keampuhannya terhadap manusia. Namun, jika Anda memang ingin mencoba, diskusikanlah terlebih dahulu kepada dokter.
+Daun sendok
+Senyawa terpenoid dari ekstrak tanaman daun sendok  diduga mampu menghambat pembentukan dan memengaruhi ukuran kristal kalsium oksalat. Kristal ini adalah bahan dasar dari batu ginjal. Daun sendok atau Plantago major bahkan diduga lebih baik dalam menghambat pembentukan dan memengaruhi ukuran kristal tersebut, jika dibandingkan dengan zyloric dan kalium sitrat. Tapi, penelitian lebih lanjut untuk efektivitas senyawa terpenoid dari ekstrak tanaman daun sendok pada penderita batu ginjal dan uji klinis langsung terhadap manusia masih perlu dilakukan. Oleh karena itu, disarankan untuk tidak mengonsumsi daun sendok sebelum ada ada bukti keampuhannya terhadap penyakit batu ginjal yang dialami manusia.
+Tanjung
+Tanaman tanjung dipercaya bisa menjadi obat herbal batu ginjal. Namun, tidak ada penelitian yang membuktikan potensi tanaman tanjung untuk mengatasi batu ginjal pada manusia.
+Meniran hijau atau dukung anak
+Tanaman meniran hijau (Phyllanthus niruri) diduga bisa mengurangi ukuran partikel dan agregasi kristal batu ginjal. Penelitian laboratorium menunjukkan bahwa ekstrak dari tanaman ini dapat mengurangi pembentukan batu ginjal hinggal 50%. Tapi, hal ini belum pernah diujikan kepada manusia sehingga masih memerlukan penelitian lebih lanjut.
+Katumpangan uler atau rumput upas-upasan
+Rumput upas-upasan atau katumpangan uler dipercaya bisa menjadi obat herbal batu ginjal. Kenyataannya, belum ada penelitian yang membuktikan apakah katumpangan uler ini dapat diaplikasikan pada manusia.
+Trachyspermum ammi (ajwain atau ajowan)
+Trachyspermum ammi  biasanya digunakan untuk menghilangkan nyeri akibat batu ginjal dan batu di saluran kemih. Sejauh ini, sifat diuretik pada tanaman ini dipercaya dapat digunakan dalam berbagai formulasi obat untuk menangani batu ginjal. Namun, penelitian lebih lanjut tentang dampaknya dalam mengatasi batu ginjal atau batu di saluran kemih masih memerlukan penelitian lebih lanjut.
+Lime powder
+Menurut penelitian, mengonsumsi lime powder mungkin berguna untuk mengurangi potensi pembentukan batu ginjal. Selain itu, lime powder juga diduga memiliki efek antioksidan dan mampu menekan kemungkinan kerusakan tubulus ginjal.
+</item>
+
+<item>
+1. Berhenti Merokok
+Merokok tak hanya menjadi pemicu dari infeksi pernapasan, bahkan kegiatan merokok dapat menyakiti organ ginjal Anda. Memang merokok itu sendiri tidaklah ada kaitannya langsung dengan kesehatan ginjal yang memburuk, tapi fungsi ginjal yang menurun bisa dikarenakan dari efek merokok di mana banyak bahan kimia berbahaya memenuhi tubuh. Merokok akan memberikan efek buruk bagi jantung yang tadinya sehat menjadi kehilangan fungsinya, dan bila kebiasaan ini terus berlanjut, ginjal adalah organ berikutnya yang akan dibuat semakin buruk fungsi dan kesehatannya.
+(Baca juga: penyakit akibat merokok)
+2. Membuat Ramuan Rambut Jagung, Alang-alang, dan Kumis Kucing
+Rupanya rambut jagung dapat menjadi bahan alami yang baik untuk pengobatan para penderita gagal ginjal apabila dikombinasikan dengan kumis kucing serta alang-alang. Caranya termasuk sangat sederhana, yaitu dengan menyiapkan 1 genggam padat rambut jagung, lalu juga 11-15 lembar daun kumis kucing dan akar alang-alang yang dibutuhkan sekitar 3 jengkal. Bersihkan semua bahan tersebut sebelum mengolahnya menjadi ramuan obat.
+Setelah dicuci, Anda dapat mencampurkan 600 ml air putih untuk merebus semua bahan bermanfaat tersebut. Tunggu sampai mendidih dan tersisa tinggal 300 ml saja. Biarkan dulu kurang lebih 15 hingga 30 menit agar ramuan tidak begitu panas, baru Anda bisa meminumnya. Sekali konsumsi dianjurkan 100 ml dan Anda bisa mendapatkan hasil maksimal dengan minum sehari 3 kali.
+(Baca juga: penyebab gagal ginjal)
+3. Membuat Ramuan Bawang Putih, Jeruk Nipis dan Bawang Bombay
+Kebanyakan para penderita gagal ginjal sama sekali tak tertolong karena dokter pun pada umumnya bakal angkat tangan sebab tergolong mustahil untuk menyembuhkan gagal ginjal secara total. Hanya saja, ramuan tradisional dengan 3 bahan alami yang mudah ditemukan ini kiranya bisa menyelamatkan ginjal Anda yang telah berkondisi parah.
+Caranya adalah dengan menyediakan jeruk nipis 3 buah, bawang bombay 2 siung saja, lalu bawang putih tunggal 11 siung. Kemudian sesudah Anda mencucinya, blenderlah semua bahan jadi satu, bahkan Anda bisa menggunakan jeruk nipis sekulit dan bijinya tanpa harus mengupas dan mengeluarkan bijinya. Mengonsumsi ramuan ini sebelum makan 3×1 sendok makan setiap harinya akan memberikan hasil terbaik bagi ginjal Anda dan bisa juga dijadikan cara mencegah sakit ginjal.
+4. Menggunakan Daun Sukun
+Telah diteliti bahwa daun sukun adalah bahan alami yang dapat mengobati gagal ginjal tanpa penderita harus cuci darah. Kondisi ginjal pun diketahui dapat dikembalikan seperti semula fungsinya karena adanya kandungan flavonoid, tanin, serta asam hidrosianat; bahkan riboflavin dan aseticolin juga akan membantu pemulihan kondisi ginjal. Selain ginjal, penyakit kardiovaskuler serta penyakit diabetes mampu diatasi juga dengan daun sukun ini.
+Caranya tidak akan ribet karena Anda hanya perlu menyiapkan daun sukun beberapa lembar saja yang kemudian Anda bisa cuci bersih lebih dulu. Selanjutnya, daun tersebut bisa direbus dengan air secukupnya dan biarkan sampai mendidih; pastikan bahwa dalam air tersebut daun telah hancur. Tinggalkan beberapa waktu sampai benar-benar dingin, lalu disaring sehingga yang tersisa hanya air rebusannya saja. Minumlah sehari 2 kali (pagi dan sore hari setelah makan) demi hasil terbaik.
+
+</item>
+    </string-array>
+   
+    <array name="sebab_ginjal">
+        <item>@drawable/batuGinjal</item>
+	<item>@drawable/gagalGinjal</item>
+    </array>
+</resources>

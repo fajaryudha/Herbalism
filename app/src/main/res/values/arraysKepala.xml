@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_kepala">
+        <item>Sakit Kepala</item>
+        <item>Stroke</item>
+    </string-array>
+
+	
+    <string-array name="arti_kepala">
+        <item>Sakit kepala adalah rasa sakit yang muncul di sekitar kepala. 
+	Sakit kepala tidak memiliki jangka waktu tertentu, bisa berlangsung 
+	kurang dari satu jam atau bahkan selama beberapa hari, serta  bisa muncul 
+	secara tiba-tiba atau perlahan-lahan.</item>
+        <item>Stroke adalah kondisi yang terjadi ketika pasokan darah ke otak 
+	terputus akibat penyumbatan atau pecahnya pembuluh darah, sehingga terjadi 
+	kematian sel-sel pada sebagian area di otak. Stroke adalah kondisi 
+	kesehatan yang serius yang membutuhkan penanganan cepat
+        </item>
+    </string-array>
+
+    <string-array name="obat_kepala">
+        <item>- Campur jus lemon ke dalam satu gelas air putih kemudian di minum, dan kulit jeruk di lumat dan di tempelkan di dahi
+		- Menggunakan teh mint atau air peppermint
+		- Minum air putih jika penyebabnya karena dehidrasi
+		- Memakan kentang dengan cara dibakar dengan kulitnya atau direbus.
+		- Memakan buah pisang
+		- mengosok-gosokan / mengkompreskan es batu secara perlahan pada daerah kepala anda yang terasa sakit.
+		- Memakan biji wijen
+		- Mengkonsumsi ikan
+		- Memakan buah semangka
+	</item>
+        <item>
+	Bahan yang harus dipersiapkan :
+	a. Daun cermai 20 gram
+	b. Jahe merah 20 gr
+	c. Daun dewa 30 gr
+	d. Mengkudu 40 gr
+	e. 4 gelas air
+	Cara :
+	1. Cuci bersih semua bahan
+	2. Setelah bersih, potong semua bahan dan rebus dengan air bersih
+	3. Tunggu hingga air rebusan tersisa minimal setengahnya dan saring untuk memisahkan air rebusan
+	4. Minum air yang telah disaring tadi dan sebaiknya di konsumsi 3 kali dalam sehari
+	</item>
+    </string-array>
+
+    <string-array name="penyebab_kepala">
+         <item>	-Kepala yang disebabkan oleh kondisi infeksi seperti meningitis. 
+		Infeksi juga dapat berasal dari bagian tubuh lain selain kepala, 
+		seperti yang terjadi pada kasus sinusitis, flu, infeksi telinga, 
+		serta infeksi pada gigi.
+		-Trauma. Misalnya akibat terbentur atau setelah mengalami kecelakaan.
+		-Adanya perdarahan atau sumbatan pembuluh darah di dalam otak
+		-Kanker otak.
+		-Pengar (hangover).
+		-Sakit kepala rebound. Sakit kepala ini disebabkan karena terlalu banyak mengonsumsi obat pereda sakit
+		-Mabuk perjalanan alias motion sickness
+		-Efek samping dari penggunaan obat
+        </item>
+        <item>
+	Tanda-Tanda utama serangan Stroke
+	- Rasa bebal atau mati mendadak atau kehilangan rasa dan lemas pada muka, 
+	tangan atau kaki, terutama pada satu bagian tubuh saja.
+	- Rasa bingung yang mendadak, sulit bicara atau sulit mengerti
+	- Satu mata atau kedua matamendadak kabur
+	- Mendadak sukar berjalan, terhuyung dan kehilangan keseimbangan
+	- Mendadak merasa pusing dan sakit kepala tanpa diketahui sebab musababnya
+	- Rasa mual, panas dan sangat sering muntah-muntah        
+	- Rasa pingsan mendadak, atau merasa hilang kesadaran secara mendadak
+	</item>
+    </string-array>
+ 
+    <array name="sebab_kepala">
+        <item>@drawable/sakitKepala</item>
+        <item>@drawable/stroke</item>
+    </array>
+</resources>
