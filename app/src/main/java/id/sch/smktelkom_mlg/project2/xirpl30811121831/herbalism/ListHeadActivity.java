@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,7 +14,6 @@ import java.util.List;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.adapter.MyAdapter;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.Herbalism;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.TitleChild;
-import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.TitleCreator;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.TitleParent;
 
 /**
@@ -50,12 +50,21 @@ public class ListHeadActivity extends AppCompatActivity {
     }
 
     private List<ParentObject> initData() {
-        TitleCreator titleCreator = TitleCreator.get(this);
-        List<TitleParent> tiles = titleCreator.getAll();
+        Resources resources = getResources();
+        String[] arJudul = resources.getStringArray(R.array.places1);
+
+        List<TitleParent> _titleParent;
+        _titleParent = new ArrayList<>();
+
+        for (int i = 0; i < arJudul.length; i++) {
+            TitleParent title = new TitleParent(arJudul[i]);
+            _titleParent.add(title);
+        }
+        List<TitleParent> tiles = _titleParent;
         List<ParentObject> parentObject = new ArrayList<>();
         for (TitleParent title : tiles) {
             List<Object> childList = new ArrayList<>();
-            childList.add(new TitleChild("Add to contacs", "Send Message"));
+            childList.add(new TitleChild("Penyakit", "Penyebab"));
             title.setChildObjectList(childList);
             parentObject.add(title);
         }
