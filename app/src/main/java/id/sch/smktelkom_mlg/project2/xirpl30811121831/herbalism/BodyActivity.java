@@ -72,8 +72,41 @@ public class BodyActivity extends AppCompatActivity implements HerbalismAdapter.
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(this, ListBodyActivity.class);
-        intent.putExtra(HERBALISM, mList.get(pos));
-        startActivity(intent);
+        if (pos == 0) {
+            Intent intent = new Intent(this, ListBodyActivity.class);//ListBodyActivity diubah untuk menuju ke activity yang diinginkan
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 1) {
+            Intent intent = new Intent(this, MainActivity.class); //MainActivity diubah untuk menuju ke activity yang diinginkan
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 2) {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 3) {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 4) {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 5) {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 6) {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 7) {
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        }
+        //Intent intent = new Intent(this, ListBodyActivity.class);
+        //intent.putExtra(HERBALISM, mList.get(pos));
+        //startActivity(intent);
     }
 }
