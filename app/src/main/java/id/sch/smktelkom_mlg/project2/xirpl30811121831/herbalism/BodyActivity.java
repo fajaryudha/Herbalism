@@ -72,7 +72,7 @@ public class BodyActivity extends AppCompatActivity implements HerbalismAdapter.
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(this, ListHeadActivity.class);
+        Intent intent = new Intent(this, ListBodyActivity.class);
         intent.putExtra(HERBALISM, mList.get(pos));
         startActivity(intent);
     }

@@ -15,6 +15,9 @@
     <string name="slide_3_title">Konten Berbagi</string>
     <string name="slide_3_desc">Tekan tombol share untuk berbagi informasi yang diinginkan pada orang terdekat Anda</string>
 
+    <string name="slide_5_title">Pilih Bagian Tubuh</string>
+    <string name="slide_5_desc">Untuk melihat informasi penyakit yang Anda inginkan, pilih bagian tubuh pada gambar </string>
+
     <string name="slide_4_title">Aplikasi Siap Digunakan!</string>
     <string name="slide_4_desc">Terima Kasih karena telah mendownload aplikasi ini! Semoga Bermanfaat!</string>
 

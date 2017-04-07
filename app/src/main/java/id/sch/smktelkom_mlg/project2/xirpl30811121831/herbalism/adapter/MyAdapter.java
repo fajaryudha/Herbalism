@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.adapter;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,5 +54,10 @@ public class MyAdapter extends ExpandableRecyclerAdapter<TitleParentViewHolder, 
         TitleChild title = (TitleChild) o;
         titleChildViewHolder.option1.setText(title.getOption1());
         titleChildViewHolder.option2.setText(title.getOption2());
+    }
+
+    @Override
+    public void onViewDetachedFromWindow(RecyclerView.ViewHolder holder) {
+        super.onViewDetachedFromWindow(holder);
     }
 }
