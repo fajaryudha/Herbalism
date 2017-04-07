@@ -2,41 +2,46 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bga">
+    android:background="@drawable/bgd">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:weightSum="1">
 
         <ImageView
-            android:layout_width="192dp"
-            android:layout_height="218dp"
-            android:src="@drawable/download" />
+            android:layout_width="200dp"
+            android:layout_height="209dp"
+            android:layout_weight="0.68"
+            android:src="@drawable/welcome5" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/slide_4_title"
+            android:paddingTop="10dp"
+            android:text="@string/slide_5_title"
+            android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="@dimen/slide_title"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@color/cardview_shadow_start_color"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="@string/slide_4_desc"
+            android:text="@string/slide_5_desc"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="@dimen/slide_desc" />
 
     </LinearLayout>
-
 </RelativeLayout>
