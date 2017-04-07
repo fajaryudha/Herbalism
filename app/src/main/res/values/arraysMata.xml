@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_mata">
+        <item>Mata Berair</item>
+    </string-array>
+
+<string-array name="arti_mata">
+        <item>Mata berair adalah kondisi ketika mata berair terus menerus. 
+	Mata berair dapat terjadi ketika kelenjar yang memproduksi minyak 
+	tidak bekerja dengan semestinya. Hal ini membuat air mata cepat 
+	menguap dan menjadikannya lebih cepat mengering. Mata kering inilah 
+	yang merangsang produksi air mata secara berlebih sehingga menyebabkan 
+	mata berair</item>
+    </string-array>
+	
+<string-array name="obat_mata">
+<item>
+1.	Susu Murni
+Susu murni bisa digunakan untuk obat mata mata gatal dan merah yaitu dengan meneteskan beberapa
+tetes susu murni pada kapas lalu letakkan kapas diatas mata dan biarkan beberapa saat. 
+Lakukan secara rutin hingga iritasi mata hilang dan sembuh.
+2.	Air Mawar
+Air mawar bisa dijadikan obat mata iritasi mata dan cukup praktis karena bisa dilakukan sendiri di rumah. 
+caranya adalah dengan membersihkan mata dengan air mawar minimal tiga kali sehari hingga iritasi dan rasa gatal sudah tidak 
+terasa lagi. Air mawar juga akan memberikan rasa sejuk pada mata.
+3.	Bawang putih
+obat mata yang ke tiga adala bawang putih . Caranya potonglah bawang putih pada bagian ujungnya ini untuk mengeluarkan 
+kandungan bawang putih tersebut. Gosokan secara merata pada bagian mata tepat sejajar dengan bulu mata cukup pada bagian 
+bawah mata saja seperti menggunakan eye liner. Tunggu beberapa saat kemudian bilah dengan air. Lakukan secara rutin dan 
+baiknya dilakukan pada saat malam sebelum tidur.
+4.	Kunyit
+Ambil kunyit dan potong -potong, kemudian masukan kedalam segelas air. Rendam sekitar 10 menit. Dan hasilnya teteskan 
+pada mata anda secara rutin.
+5.	Daun Siri
+Obat mata selanjutnya adalah daun sirih .Ambil 2-3 daun sirih, masukan kedalam wadah dan seduh dengan air hangat setelah 
+itu diamkan sampai air terasa dingin. Gunakan air tersebut untuk mencuci mata anda dengan cara meneteskannya secara rutin
+6.	Air Rebusan Daun Sirih
+Daun sirih sudah lama dipercaya untuk mengatasi iritasi mata seperti gatal dan merah. Caranyaadalah dengan mengambil 
+sejumlah daun sirih lalu direbus dengan air hingga mendidih. Biarkan air rebusan menjadi dingin setelah itu rendam 
+muka pada air rebusan daun sirih dengan mata terbuka agar iritasi pada mata menjadi hilang dan sembuh. Cara ini cukup 
+efektif untuk mengatasi mata gatal dan merah.
+7.	Irisan Timun
+Irisan timu yang dingin juga bisa digunakan untuk mengatasi mata gatal dan merah. Caranya adalah dengan mengiiris timun 
+tipis-tipis dan melintang lalu letakkan pada mata dan biarkan hingga timun kering dan diganti setelah irisan timun 
+sudah mengering. Irisan timun sangat efektif untuk mengatasi mata gatal karena timun dipercaya mengandung anti-iritasi yang menyegarkan.
+8.	Kentang mentah
+Bila cara diatas belum sembuh maka lakukan dengan pengobatan herbal mata yaitu dengan kentang .
+ Caranya iris tipis kentang mentah kemudian tempelkan dimata anda, ini akan membantu mendinginkan anda membuat rileks mata 
+anda sehingga dapat menghilangkan rasa gatal dan warna merah akibat mata perih, iritasi dan berair.
+</item>
+    </string-array>
+
+    
+    
+    <array name="sebab_mata">
+        <item>@drawable/mataBerair</item>
+    </array>
+</resources>

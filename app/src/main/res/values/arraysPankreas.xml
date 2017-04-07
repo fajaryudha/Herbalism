@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_pankreas">
+        <item>Diabetes</item>
+    </string-array>
+
+ <string-array name="arti_diabetes">
+        <item>Diabetes (diabetes melitus) adalah penyakit jangka panjang atau kronis yang ditandai dengan kadar gula darah (glukosa) yang jauh di atas normal. Glukosa sangat penting bagi kesehatan kita karena merupakan sumber energi utama bagi otak maupun sel-sel yang membentuk otot serta jaringan pada tubuh kita.</item>
+       
+    </string-array>
+    <string-array name="obat_diabetes">
+        <item>
+Mengobat Diabetes dengan Kunyit 
+Apabila pancreas belum luka cukup dengan kunit dimakan kulit dan ampasnya saat pagi, siang dan sore. Apabila sudah luka maka tambah dengan kubis mentah tiap pagi, siang dan sore. Masing – masing sehelai daun, konsumsi kurang lebih 21 hari maka akan sembuh.
+
+Mengobati Diabetes dengan tanaman mahkota dewa
+Cara membuatnya :
+	Siapkan 3 hingga 5 potong tangkai tanaman mahkota dewa.
+	Kemudian tambahkan 3 lembar daun salam dan cuci hingga bersih.
+	Rebus menggunakan air 3 gelas dan terus rebus agar mendidih sampai air hanya tersisa setengah gelas.
+	Minumlah air rebusan tersebut setiap hari agar penyakit diabetes bisa diatasi.
+
+
+Mengobati penyakit diabetes dengan tanaman brotowali
+
+Cara membuatnya :
+	ambil batang tanaman brotowali kira-kira sebesar jari atau 10cm.
+	Tambahkan satu genggam akar pepaya dan rebus kedua bahan alami tersebut.
+	Rebus hingga mendidih dan biarkan agar dingin baru minum air rebusan tersebut untuk mengobati penyakit diabetes.
+
+Mengobati penyakit diabetes dengan Daun kemangi
+
+Daun kemangi memiliki suatu kandungan yang dapat membantu proses sekresi insulin pada tubuh, jadi kadar gula darah akan tetap stabil. Cara mengonsumsinya pun seperti biasa dan cukup digunakan sebagai lalapan. Karena kemangi dikonsumsi dalam keadaan mentah, maka pastikan kebersihannya terjaga.
+
+Mengobati penyakit diabetes dengan Buncis
+
+Buncis mengandung B-sitosterol yang bisa mempercepat produksi insulin di dalam tubuh, namun tetap menjaga insulin tetap normal di dalam tubuh. Buncis obat diabetes ini mampu mengurangi gula darah jika Anda bisa mengolahnya dengan benar. 
+
+Cara membuatnya :
+	Siapkan 1/2 Kg yang sudah dicuci bersih
+	Kemudian buncis di rebus menggunakan 2 gelas air.
+	Setelah mendidih angkat buncis dan masukkan ke dalam gelas.
+	Minum ramuan alami tersebut pagi dan malam sebelum tidur.
+
+	</item>
+    </string-array>
+ 
+    <array name="sebab_pankreas">
+        <item>@drawable/pankreas</item>
+    </array>
+</resources>

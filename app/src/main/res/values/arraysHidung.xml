@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_hidung">
+        <item>Mimisan</item>
+    </string-array>
+
+ <string-array name="arti_hidung">
+        <item>Mimisan adalah pendarahan yang terjadi dari hidung. Darah dapat keluar dari salah satu atau kedua lubang hidung dengan durasi yang berbeda-beda. Ada yang mengalaminya hanya selama beberapa detik, dan ada yang lebih dari 10 menit.</item>
+       
+    </string-array>
+    <string-array name="obat_hidung">
+        <item>
+1.	Posisi duduk lebih condong ke depan
+Langkah awal untuk menangani mimisan adalah meletakkan pasien dalam posisi duduk dengan badan beserta kepala lebih maju ke depan. Jepit hidung pasien dengan dua jari tangan, biarkan ia bernafas lewat mulut selama sekitar 2 menit. Setelah darah berhenti mengalir, kompres hidungnya menggunakan es. Hal ini bertujuan untuk membekukan darah dengan cara memperkecil pembuluh darah (vasokonstriksi). Sedangkan posisi duduk tersebut bertujuan mencegah aliran darah ke kerongkongan dan lambung.
+2.	Hentikan pendarahan menggunakan daun sirih
+Ambil sehelai daun sirih muda, kemudian diremas dan digulung membentuk kerucut. Sumbat hidung pasien dengan daun sirih, biarkan selama beberapa menit. Posisi wajah menghadap tengadah. Cara ini bertujuan agar pembuluh darah menyusut. Jika pendarahan pada hidung tetap berlanjut selama lebih dari sepuluh menit, segera bawa pasien ke dokter. Pendarahan yang berlanjut disertai panas kemungkinan adalah indikasi penyakit serius. Pertahankan posisi pasien dalam keadaan duduk bersandar. 
+3.	Akar Teratai 
+Sediakan 200 gram akar teratai, lalu ditumbuk sampai halus. Gunakan airnya sebagai obat tetes hidung, sebanyak 3 tetes air. Silahkan minum sisanya.
+4.	Rambut Jagung 
+Ambil 50 gram rambut jagung, kemudian rebus bersama 400 cc air. Biarkan airnya mendidih dan tersisa setengahnya. Setelah itu, airnya disaring. Minumlah airnya selagi hangat.
+5.	Akar Alang-Alang 
+Sediakan 60 gram akar alang-alang, kemudian direbus bersama 400 cc air sampai mendidih. Biarkan airnya menyusut hingga setengahnya. Minum airnya selagi hangat.
+6.	Pegagan 
+Ambil 60 gram pegagan, kemudian direbus ke dalam 400 cc air. Biarkan airnya mendidih selama beberapa menit, sehingga tersisa setengahnya. Segera minum airnya selagi hangat.
+7.	Kangkung segar 
+Sediakan 25 gram kangkung segar dan air secukupnya, kemudian masukkan ke dalam blender. Jus kangkung dapat diminum secara teratur untuk mengatasi mimisan yang sering dialami.
+8.	Kacang Tanah 
+Siapkan 25 gram kulit kacang tanah, kemudian rebus bersama 400 cc air. Setelah airnya berkurang setengah dari semula, disaring. Minum airnya ketika hangat. 
+	</item>
+    </string-array>
+
+   
+    <string-array name="gejala_hidung">
+         <item>	•	Mimisan yang berlangsung lebih dari 30 menit. Jika mengalaminya, Anda sebaiknya segera ke rumah sakit.
+•	Mimisan yang terjadi pada anak-anak berusia di bawah 2 tahun.
+•	Mimisan dengan volume darah yang banyak.
+•	Mimisan yang terjadi setelah operasi di daerah hidung atau sinus.
+•	Sering mimisan dalam waktu singkat.
+•	Detak jantung yang tidak beraturan.
+•	Kesulitan bernapas.
+•	Apabila Anda sedang mengonsumsi obat pengencer darah seperti aspirin atau warfarin.
+•	Muntah darah karena menelan banyak darah.
+•	Demam atau mengalami ruam.
+•	Mimisan yang terjadi setelah Anda mengalami cedera.
+•	Kulit berubah pucat.
+•	Mimisan yang disertai pendarahan dari bagian lain tubuh, misalnya pada urine.
+        </item>
+    </string-array>
+ 
+    <array name="sebab_hidung">
+        <item>@drawable/mimisan</item>
+    </array>
+</resources>

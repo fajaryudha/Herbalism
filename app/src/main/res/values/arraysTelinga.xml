@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_telinga">
+        <item> Infeksi Telinga </item>
+    </string-array>
+
+ <string-array name="arti_telinga">
+        <item>Ini merupakan jenis penyakit telinga yang paling umum terjadi, setiap bagian telinga bisa mengalami infeksi, mulai dari telinga luar, tengah, dan telinga dalam
+</item>
+       
+    </string-array>
+    <string-array name="obat_telinga">
+        <item>
+1. Uap minyak eukaliptus dan lavender
+Tuangkan air hangat ke dalam mangkuk yang tidak terbuat dari plastik dan tambahkan beberapa tetesan kedua minyak tersebut. Taruh handuk di atas kepala anak dan mintalah anak menghirup uap air hangat tersebut. Hal ini dapat meringankan gejala infeksi telinga.
+2. Bawang putih
+Rebus satu siung bawang putih di dalam cangkir yang diisi air hingga setengahnya. Diamkan hingga bawang putih melunak, namun jangan sampai lembek. Taruh bawang putih di bagian luar telinga, namun jangan sampai bawang putih masuk ke kanal telinga. Tutupi telinga dengan kain kasa atau kapas bulat dan rekatkan plester agar bawang putih bisa menyerap infeksi lebih maksimal. Ulangi esok hari dengan memakai bawang putih baru.
+3. Kompres panas
+Letakkan kain yang telah direndam di dalam air panas di telinga. Kompres telinga hingga suhu air terasa menurun atau dingin. Ulangi prosedur ini kapan pun diperlukan terutama saat terkena infeksi telinga.
+	</item>
+    </string-array>
+
+   
+    <string-array name="gejala_telinga">
+         <item>	•	Mimisan yang berlangsung lebih dari 30 menit. Jika mengalaminya, Anda sebaiknya segera ke rumah sakit.
+•	Mimisan yang terjadi pada anak-anak berusia di bawah 2 tahun.
+•	Mimisan dengan volume darah yang banyak.
+•	Mimisan yang terjadi setelah operasi di daerah hidung atau sinus.
+•	Sering mimisan dalam waktu singkat.
+•	Detak jantung yang tidak beraturan.
+•	Kesulitan bernapas.
+•	Apabila Anda sedang mengonsumsi obat pengencer darah seperti aspirin atau warfarin.
+•	Muntah darah karena menelan banyak darah.
+•	Demam atau mengalami ruam.
+•	Mimisan yang terjadi setelah Anda mengalami cedera.
+•	Kulit berubah pucat.
+•	Mimisan yang disertai pendarahan dari bagian lain tubuh, misalnya pada urine.
+        </item>
+    </string-array>
+ 
+    <array name="sebab_telinga">
+        <item>@drawable/infeksiTelinga</item>
+    </array>
+</resources>

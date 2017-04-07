@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="penyakit_jantung">
+        <item>Jantung Koroner</item>
+	<item>Jantung Lemah</item>
+    </string-array>
+
+<string-array name="arti_jantung">
+        <item>Penyakit jantung koroner berarti terjadinya hambatan atau sumbatan pada arteri koroner sehingga pasokan darah ke otot-otot jantung menjadi berkurang bahkan tidak ada sama sekali sehingga menimbulkan berbagai gejala bahkan bisa mengancam nyawa. Hal ini paling sering disebabkan oleh aterosklerosis atau sumbatan kolesterol pada pembuluh darah arteri. </item>
+	<item>Lemah jantung adalah penyakit yang berhubungan dengan miokard atau otot jantung. Penyakit ini tidak berkaitan dengan penyakit arteri jantung, katup jantung, atau darah tinggi, namun memiliki beberapa tingkatan disfungsi otot jantung yang dapat disebabkan oleh penyakit lain. Lemah Jantung dapat menjadi penyebab detak jantung yang lemah ataupun tidak beraturan hingga gagal jantung pada penderitanya.</item>   
+ </string-array>
+	
+<string-array name="obat_jantung">
+<item>
+1. Bawang Putih
+Bahan makanan yang sering digunakan untuk memasak ini memiliki manfaat dapat menurunkan tekanan darah, kolesterol, obat anti kanker, obat anti bakteri serta anti jamur. Bawang putih memiliki zat antioksidan yang mampu memerangi penyakit jantung koroner. Bahan ini sangat mudah anda dapat. Anda bisa memulai mengkonsumsi bahan ini untuk jantung anda. Cara mengolahnya pun mudah, anda bisa membuat sambal kecap dengan campuran bawang putih ini dengan cara di iris-iris, namun ada cara lain, yaitu dengan di memarkan kemudian di seduh dengan air panas sebanyak setengah gelas, lalu di blender, atau bisa anda parut kemudian di seduh dengan air panas dan minumlah selagi hangat beserta ampasnya.
+2. Temu Giring
+Anda bisa mengkonsumsi bahan makanan ini dengan meminumnya secara rutin, paling tidak sehari sekali. Sehingga penyakit jantung koroner anda bisa sembuh.
+3. Sambang Darah
+Tanaman herbal ini memiliki khasiat yang bagus untuk memerangi penyakit jantung koorner. Sambang Darah menjaga jantung agar tetap sehat, manfaat lain dari tanaman ini adalah menghentikan pendarahan, mengatasi darah tinggi, sebagai obat demam, dan masih banyak lagi. Untuk mendapatkan tanaman ini anda tidak perlu susah-susah, cukup datang saja ke toko penjual tanaman herbal.
+4. Temu Putih
+Tumbuhan ini mempunyai nama latin Curcuma Zedoaria, merupakan tanaman obat yang digunakan oleh sebagian banyak masyarakat Indonesia. Tanaman ini hampir menyerupai temulawak, dan kunyit putih. Tumbuh pada tanah yang lembab. Yang memiliki ketinggian 0 sampai 1000 meter. Rasa dari tanaman ini pahit dan memiliki rasa pedas, namun jangan salah tanaman ini memiliki sifat yang menghangatkan badan lho. Temu putih juga memiliki khasiat yang sangat bagus untuk mengatasi aneka macam penyakit, seperti: meredakan nyeri saat haid, mengobati kanker, kista, diare serta masalah sakit perut. Penelitian menyebutkan, bahwa pada tanaman ini terdapat zat anti lipid peroksida yang berfungsi untuk menyembuhkan asam urat, hipertensi atau tekanan darah tinggi, diabetes serta penyakit jantung koroner.
+</item>
+
+<item>
+a. Menggunakan daun sukun.
+Siapkan bahan ini:
+1.	1 lembar daun sukun.
+2.	1,5 liter air.
+Cara pembuatan dan konsumsinya.
+•	Cucilah hingga bersih selembar daun sukun.
+•	Jemurlah di bawah terik matahari hingga kering benar.
+•	Robek robeklah agar menjadi potongan kecil.
+•	Rebuslah dengan air yang telah di siapkan sebanyak 1 liter dulu sampai mendidih dan air tersisa separo.
+•	Lansung tambahkan 0,5 liter air sisanya sampai mendidih.
+•	Angkat dan saring airnya.
+•	Minumlah obat herbal alami untuk jantung itu sehari 2 kali, pagi~sore secara rutin agar berasa resiko penyembuhannya.
+b. Menggunakan daun sirih merah.
+Siapkanlah bahan ini.
+1.	4 lembar daun sirih merah segar ukuran besar.
+2.	4 gelas air ( 800 ml ).
+Cara membuat ramuannya.
+•	Bersihin daun sirihnya dan potong kecil kecil.
+•	Rebuslah dengan 4 gelas air dengan api sedang.
+•	Matikan api bila sudah mendidih dan air tersisa 2 gelas.
+•	Saring dan dinginkan.
+•	Minumlah pagi dan sore/malam.
+•	Agar maksimal khasiatnya, di minum sebelum makan ya..
+
+</item>
+    </string-array>
+   
+    <array name="sebab_jantung">
+        <item>@drawable/jantungKoroner</item>
+	<item>@drawable/jantungLemah</item>
+    </array>
+</resources>

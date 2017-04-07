@@ -105,13 +105,13 @@
         <item>Cape Town, South Africa</item>
     </string-array>
     <array name="places_picture">
-        <item>@drawable/a</item>
-        <item>@drawable/b</item>
-        <item>@drawable/c</item>
-        <item>@drawable/e</item>
-        <item>@drawable/f</item>
-        <item>@drawable/a</item>
-        <item>@drawable/b</item>
+        <item>@drawable/jantung</item>
+        <item>@drawable/paru</item>
+        <item>@drawable/lambung</item>
+        <item>@drawable/usus</item>
+        <item>@drawable/ginjal</item>
+        <item>@drawable/hidung</item>
+        <item>@drawable/pankreas</item>
         <item>@drawable/anus</item>
     </array>
     <string-array name="places_coba">
