@@ -61,7 +61,7 @@ Caranya tidak akan ribet karena Anda hanya perlu menyiapkan daun sukun beberapa 
     </string-array>
    
     <array name="sebab_ginjal">
-        <item>@drawable/batuGinjal</item>
-	<item>@drawable/gagalGinjal</item>
+        <item>@drawable/batu_ginjal</item>
+        <item>@drawable/gagal_ginjal</item>
     </array>
 </resources>

@@ -67,6 +67,6 @@ anda sehingga dapat menghilangkan rasa gatal dan warna merah akibat mata perih, 
     
     
     <array name="sebab_mata">
-        <item>@drawable/mataBerair</item>
+        <item>@drawable/mata_berair</item>
     </array>
 </resources>

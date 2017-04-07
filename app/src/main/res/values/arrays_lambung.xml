@@ -19,12 +19,12 @@
 	<item>Asam Lambung</item>
     </string-array>
 
-<string-array name="arti_ginjal">
+    <string-array name="arti_lambung">
         <item>Sakit maag (indigestion) adalah istilah yang menggambarkan nyeri yang berasal dari lambung, usus halus, atau bahkan kerongkongan akibat sejumlah kondisi. Sebutan lain sakit maag adalah dispepsia.</item>
 	<item>Penyakit asam lambung atau Gastroesophageal Reflux Disease (GERD) adalah kondisi yang ditandai dengan nyeri pada ulu hati atau sensasi terbakar di dada akibat naiknya asam lambung menuju esofagus. Esofagus yang juga dikenal sebagai kerongkongan adalah bagian dari saluran pencernaan yang menghubungkan mulut dan lambung. Penyakit asam lambung merupakan masalah kesehatan yang cukup umum terjadi di masyarakat</item>   
  </string-array>
-	
-<string-array name="obat_ginjal">
+
+    <string-array name="obat_lambung">
 <item>
 Mengobati sakit maag dengan Kunyit
 Kunyit sangat berkhasiat untuk mengobati sakit maag, sebab kunyit banyak mengandung zat aktif seperti kurkumin dan minyak atsiri yang mampu menyembuhkan sakit maag.
@@ -83,6 +83,6 @@ Meminumnya pagi sebelum makan dan malam sebelum tidur.
    
     <array name="sebab_lambung">
         <item>@drawable/maagh</item>
-	<item>@drawable/asamLambung</item>
+        <item>@drawable/asam_lambung</item>
     </array>
 </resources>

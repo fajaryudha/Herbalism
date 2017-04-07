@@ -53,6 +53,6 @@ Letakkan kain yang telah direndam di dalam air panas di telinga. Kompres telinga
     </string-array>
  
     <array name="sebab_telinga">
-        <item>@drawable/infeksiTelinga</item>
+        <item>@drawable/infeksi_telinga</item>
     </array>
 </resources>

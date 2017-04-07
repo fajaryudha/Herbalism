@@ -65,7 +65,7 @@ Cara membuat ramuannya.
     </string-array>
    
     <array name="sebab_jantung">
-        <item>@drawable/jantungKoroner</item>
-	<item>@drawable/jantungLemah</item>
+        <item>@drawable/jantung_koroner</item>
+        <item>@drawable/jantung_lemah</item>
     </array>
 </resources>

@@ -63,6 +63,6 @@ Cara pengobatan: Gunakan minyak cengkeh dengan cara meneteskannya pada gigi yang
  
     <array name="sebab_mulut">
         <item>@drawable/sariawan</item>
-        <item>@drawable/sakitGigi</item>
+        <item>@drawable/sakit_gigi</item>
     </array>
 </resources>

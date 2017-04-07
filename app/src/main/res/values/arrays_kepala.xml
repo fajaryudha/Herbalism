@@ -85,7 +85,7 @@
     </string-array>
  
     <array name="sebab_kepala">
-        <item>@drawable/sakitKepala</item>
+		<item>@drawable/sakit_kepala</item>
         <item>@drawable/stroke</item>
     </array>
 </resources>

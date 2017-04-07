@@ -21,7 +21,7 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".HeadActivity"
             android:label="@string/title_activity_head"
@@ -37,8 +37,9 @@
             android:label="Organ Tubuh"
             android:parentActivityName=".HeadActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".AboutUsActivity"
-            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".BodyActivity"
             android:label="Organ Tubuh"
@@ -54,6 +55,7 @@
             android:label="Kaki"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Jantung"></activity>
     </application>
 
 </manifest>

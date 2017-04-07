@@ -54,7 +54,7 @@ Ambillah tiga buah mengkudu matang dan segenggam kulit mengkudu, selembar daun p
     </string-array>
    
     <array name="sebab_hati">
-        <item>@drawable/penyakitKuning</item>
+        <item>@drawable/penyakit_kuning</item>
 	<item>@drawable/hepatitis</item>
     </array>
 </resources>

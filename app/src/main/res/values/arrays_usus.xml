@@ -96,9 +96,9 @@ Cara Membuatnya :
 
 </item>
     </string-array>
-   
-    <array name="sebab_jantung">
-        <item>@drawable/ususBuntu</item>
+
+    <array name="sebab_usus">
+        <item>@drawable/usus_buntu</item>
 	<item>@drawable/disentri</item>
     </array>
 </resources>

@@ -18,11 +18,11 @@
         <item>Diabetes</item>
     </string-array>
 
- <string-array name="arti_diabetes">
+    <string-array name="arti_pankreas">
         <item>Diabetes (diabetes melitus) adalah penyakit jangka panjang atau kronis yang ditandai dengan kadar gula darah (glukosa) yang jauh di atas normal. Glukosa sangat penting bagi kesehatan kita karena merupakan sumber energi utama bagi otak maupun sel-sel yang membentuk otot serta jaringan pada tubuh kita.</item>
        
     </string-array>
-    <string-array name="obat_diabetes">
+    <string-array name="obat_pankreas">
         <item>
 Mengobat Diabetes dengan Kunyit 
 Apabila pancreas belum luka cukup dengan kunit dimakan kulit dan ampasnya saat pagi, siang dan sore. Apabila sudah luka maka tambah dengan kubis mentah tiap pagi, siang dan sore. Masing – masing sehelai daun, konsumsi kurang lebih 21 hari maka akan sembuh.
