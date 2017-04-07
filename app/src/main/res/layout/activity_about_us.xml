@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:scrollbars="vertical"
-    android:background="@color/colorPrimary"
+    android:background="@color/bg_screen2"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -16,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:src="@drawable/b"
+            android:src="@drawable/fika"
             android:layout_width="100dp"
             android:layout_height="100dp" />
         <LinearLayout
@@ -29,37 +30,32 @@
                 android:paddingRight="18dp"
                 android:paddingTop="18dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:text="Dian Nofika"
+                android:text="Dian Nofika Prasetya A"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <LinearLayout
                 android:paddingRight="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <ImageButton
-                    android:onClick="instagram1"
-                    android:backgroundTint="@color/bg_screen3"
+                    android:onClick="Instagram1"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
                 <ImageButton
+                    android:id="@+id/telp1"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_screen2"
                     android:onClick="Telp1"
-                    android:backgroundTint="@color/bg_screen3"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
-                <ImageButton
-
-                    android:backgroundTint="@color/bg_screen3"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
+                    android:src="@drawable/oy" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -69,8 +65,58 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <ImageView
-            android:src="@drawable/b"
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fajar" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="@android:color/white"
+                android:paddingBottom="18dp"
+                android:paddingRight="18dp"
+                android:paddingTop="18dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:text="Fajar Yudha Pratama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:paddingRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:onClick="Instagram2"
+                    android:background="@color/bg_screen2"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ig"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/telp2"
+                    android:onClick="Telp2"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_screen2"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/oy" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/agnes"
             android:layout_width="100dp"
             android:layout_height="100dp" />
         <LinearLayout
@@ -83,7 +129,7 @@
                 android:paddingRight="18dp"
                 android:paddingTop="18dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:text="Dian Nofika"
+                android:text="Fitria Mela Agnes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <LinearLayout
@@ -93,24 +139,21 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
+                    android:onClick="Instagram3"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
                 <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:id="@+id/telp3"
+                    android:onClick="Telp3"
                     android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
-                <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
+                    android:src="@drawable/oy" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -120,7 +163,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:src="@drawable/b"
+            android:src="@drawable/huzaer"
             android:layout_width="100dp"
             android:layout_height="100dp" />
         <LinearLayout
@@ -133,7 +176,7 @@
                 android:paddingRight="18dp"
                 android:paddingTop="18dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:text="Dian Nofika"
+                android:text="M. Huzaer Rekso Jiwo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <LinearLayout
@@ -143,24 +186,22 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
+                    android:onClick="Instagram4"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
                 <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:id="@+id/telp4"
+                    android:onClick="Telp4"
                     android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
-                <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
+                    android:src="@drawable/oy" />
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -170,7 +211,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
-            android:src="@drawable/b"
+            android:src="@drawable/savput"
             android:layout_width="100dp"
             android:layout_height="100dp" />
         <LinearLayout
@@ -183,7 +224,7 @@
                 android:paddingRight="18dp"
                 android:paddingTop="18dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:text="Dian Nofika"
+                android:text="Savina Ramadhani Putri"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <LinearLayout
@@ -193,77 +234,39 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
+                    android:onClick="Instagram5"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:src="@drawable/ig"
                     android:layout_width="45dp"
                     android:layout_height="wrap_content" />
 
                 <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
+                    android:id="@+id/telp5"
                     android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
-                <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_screen2"
                     android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
+                    android:src="@drawable/oy" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:src="@drawable/b"
-            android:layout_width="100dp"
-            android:layout_height="100dp" />
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:textColor="@android:color/white"
-                android:paddingBottom="18dp"
-                android:paddingRight="18dp"
-                android:paddingTop="18dp"
-                android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                android:text="Dian Nofika"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <LinearLayout
-                android:paddingRight="8dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+    <include
+        layout="@layout/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp" />
 
-                <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
-
-                <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
-                <ImageButton
-                    android:backgroundTint="@color/bg_screen3"
-                    android:scaleType="centerInside"
-                    android:src="@drawable/intagram"
-                    android:layout_width="45dp"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+</RelativeLayout>
 
 </LinearLayout>
 </ScrollView>

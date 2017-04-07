@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         menu1 = (FloatingActionButton)findViewById(R.id.subFloatingMenu1) ;
-        menu2 = (FloatingActionButton)findViewById(R.id.subFloatingMenu2) ;
         menu3 = (FloatingActionButton)findViewById(R.id.subFloatingMenu3) ;
 
         menu1.setOnClickListener(new View.OnClickListener() {
@@ -37,21 +36,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        menu2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Toast.makeText(MainActivity.this , "BackUp Icon clicked", Toast.LENGTH_LONG).show();
-
-            }
-        });
-
         menu3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this,AboutUsActivity.class);
+                Intent intent = new Intent(MainActivity.this, AboutUsActivity.class);
                 startActivity(intent);
+
             }
         });
     }
