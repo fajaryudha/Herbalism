@@ -29,4 +29,5 @@ public class TitleChild {
     public void setOption2(String option2) {
         this.option2 = option2;
     }
+
 }

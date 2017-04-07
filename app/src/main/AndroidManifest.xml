@@ -31,6 +31,11 @@
             android:label="Organ Kepala"
             android:parentActivityName=".HeadActivity"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListBodyActivity"
+            android:label="Organ Tubuh"
+            android:parentActivityName=".HeadActivity"
+            android:theme="@style/AppTheme" />
         <activity android:name=".AboutUsActivity"
             android:theme="@style/AppTheme"></activity>
         <activity
