@@ -73,8 +73,26 @@ public class HeadActivity extends AppCompatActivity implements HerbalismAdapter.
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(this, ListHeadActivity.class);
-        intent.putExtra(HERBALISM, mList.get(pos));
-        startActivity(intent);
+        if (pos == 0) {
+            Intent intent = new Intent(this, ListHeadActivity.class);//ListBodyActivity diubah untuk menuju ke activity yang diinginkan
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 1) {
+            Intent intent = new Intent(this, Mata.class); //MainActivity diubah untuk menuju ke activity yang diinginkan
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 2) {
+            Intent intent = new Intent(this, Hidung.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 3) {
+            Intent intent = new Intent(this, Mulut.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 4) {
+            Intent intent = new Intent(this, Telinga.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        }
     }
 }

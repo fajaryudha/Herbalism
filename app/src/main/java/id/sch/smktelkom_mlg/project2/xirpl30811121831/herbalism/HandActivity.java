@@ -26,7 +26,7 @@ public class HandActivity extends AppCompatActivity implements HerbalismAdapter.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hand);
-        this.setTitle("Hand");
+        this.setTitle("Badan");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -49,11 +49,11 @@ public class HandActivity extends AppCompatActivity implements HerbalismAdapter.
     private void fillData() {
 
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.places1);
-        String[] arDescripsi = resources.getStringArray(R.array.place_desc1);
-        String[] arDetail = resources.getStringArray(R.array.place_details1);
-        String[] arLokasi = resources.getStringArray(R.array.place_locations1);
-        TypedArray a = resources.obtainTypedArray(R.array.places_picture1);
+        String[] arJudul = resources.getStringArray(R.array.anggota_badan);
+        String[] arDescripsi = resources.getStringArray(R.array.place_desc);
+        String[] arDetail = resources.getStringArray(R.array.place_details);
+        String[] arLokasi = resources.getStringArray(R.array.place_locations);
+        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
@@ -72,8 +72,40 @@ public class HandActivity extends AppCompatActivity implements HerbalismAdapter.
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(this, ListHeadActivity.class);
-        intent.putExtra(HERBALISM, mList.get(pos));
-        startActivity(intent);
+
+        if (pos == 0) {
+            Intent intent = new Intent(this, Jantung.class);//ListBodyActivity diubah untuk menuju ke activity yang diinginkan
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 1) {
+            Intent intent = new Intent(this, Paru.class); //MainActivity diubah untuk menuju ke activity yang diinginkan
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 2) {
+            Intent intent = new Intent(this, Lambung.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 3) {
+            Intent intent = new Intent(this, Usus.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 4) {
+            Intent intent = new Intent(this, Ginjal.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 5) {
+            Intent intent = new Intent(this, Hati.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 6) {
+            Intent intent = new Intent(this, Pankreas.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        } else if (pos == 7) {
+            Intent intent = new Intent(this, Anus.class);
+            intent.putExtra(HERBALISM, mList.get(pos));
+            startActivity(intent);
+        }
+
     }
 }

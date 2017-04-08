@@ -81,4 +81,14 @@
         <item>@drawable/mulut</item>
         <item>@drawable/telinga</item>
     </array>
+    <string-array name="anggota_badan">
+        <item>Jantung</item>
+        <item>Paru-Paru</item>
+        <item>Lambung</item>
+        <item>Usus</item>
+        <item>Ginjal</item>
+        <item>Hati</item>
+        <item>Pankreas</item>
+        <item>Anus</item>
+    </string-array>
 </resources>
