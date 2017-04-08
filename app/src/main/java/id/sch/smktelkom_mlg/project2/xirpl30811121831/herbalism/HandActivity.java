@@ -26,7 +26,7 @@ public class HandActivity extends AppCompatActivity implements HerbalismAdapter.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hand);
-        this.setTitle("Hand");
+        this.setTitle("Body");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
