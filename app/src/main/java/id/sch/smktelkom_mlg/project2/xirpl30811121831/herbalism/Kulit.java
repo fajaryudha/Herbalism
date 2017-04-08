@@ -18,7 +18,11 @@ import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.Herbalism;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.TitleChild;
 import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.TitleParent;
 
-public class Usus extends AppCompatActivity {
+/**
+ * Created by MHRJ on 4/8/2017.
+ */
+
+public class Kulit extends AppCompatActivity {
     RecyclerView recyclerView;
 
     @Override
@@ -27,11 +31,10 @@ public class Usus extends AppCompatActivity {
         ((MyAdapter) recyclerView.getAdapter()).onSaveInstanceState(outState);
     }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_usus);
+        setContentView(R.layout.activity_kulit);
         Herbalism herbalism = (Herbalism) getIntent().getSerializableExtra(HeadActivity.HERBALISM);
         setTitle(herbalism.Judul);
 
@@ -51,7 +54,7 @@ public class Usus extends AppCompatActivity {
         String[] arJudul = resources.getStringArray(R.array.penyakit_usus);
         String[] arPenyakit = resources.getStringArray(R.array.arti_usus);
         String[] arPenyakit1 = resources.getStringArray(R.array.obat_usus);
-        TypedArray a = resources.obtainTypedArray(R.array.sebab_usus);
+        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
@@ -70,7 +73,7 @@ public class Usus extends AppCompatActivity {
         for (int i = 0; i < arJudul.length; i++) {
             TitleParent title = new TitleParent(arJudul[i]);
             _titleParent.add(title);
-            for (int j = 0; j < arPenyakit.length -1 ; j++) {
+            for (int j = 0; j < arPenyakit.length - 1; j++) {
                 //for (TitleParent titlel : titles) {
                 List<Object> childList = new ArrayList<>();
                 childList.add(new TitleChild(arPenyakit[i], arPenyakit1[i], "", arFoto[i]));

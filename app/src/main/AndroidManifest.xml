@@ -93,9 +93,12 @@
             android:name=".Pankreas"
             android:parentActivityName=".HeadActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Anus"
+        <activity
+            android:name=".Anus"
             android:parentActivityName=".HeadActivity"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Kulit" />
+        <activity android:name=".Tulang"></activity>
     </application>
 
 </manifest>
