@@ -26,7 +26,7 @@ public class HandActivity extends AppCompatActivity implements HerbalismAdapter.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hand);
-        this.setTitle("Badan");
+        this.setTitle("Hand");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -49,11 +49,11 @@ public class HandActivity extends AppCompatActivity implements HerbalismAdapter.
     private void fillData() {
 
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.anggota_badan);
-        String[] arDescripsi = resources.getStringArray(R.array.place_desc);
-        String[] arDetail = resources.getStringArray(R.array.place_details);
-        String[] arLokasi = resources.getStringArray(R.array.place_locations);
-        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+        String[] arJudul = resources.getStringArray(R.array.places1);
+        String[] arDescripsi = resources.getStringArray(R.array.place_desc1);
+        String[] arDetail = resources.getStringArray(R.array.place_details1);
+        String[] arLokasi = resources.getStringArray(R.array.place_locations1);
+        TypedArray a = resources.obtainTypedArray(R.array.places_picture1);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
@@ -106,6 +106,5 @@ public class HandActivity extends AppCompatActivity implements HerbalismAdapter.
             intent.putExtra(HERBALISM, mList.get(pos));
             startActivity(intent);
         }
-
     }
 }
