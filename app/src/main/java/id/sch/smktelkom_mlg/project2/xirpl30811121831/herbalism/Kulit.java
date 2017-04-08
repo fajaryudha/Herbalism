@@ -51,10 +51,10 @@ public class Kulit extends AppCompatActivity {
 
     private List<ParentObject> initData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.penyakit_usus);
-        String[] arPenyakit = resources.getStringArray(R.array.arti_usus);
-        String[] arPenyakit1 = resources.getStringArray(R.array.obat_usus);
-        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+        String[] arJudul = resources.getStringArray(R.array.penyakit_kaki);
+        String[] arPenyakit = resources.getStringArray(R.array.arti_kaki);
+        String[] arPenyakit1 = resources.getStringArray(R.array.obat_kaki);
+        TypedArray a = resources.obtainTypedArray(R.array.sebab_kaki);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
@@ -73,7 +73,7 @@ public class Kulit extends AppCompatActivity {
         for (int i = 0; i < arJudul.length; i++) {
             TitleParent title = new TitleParent(arJudul[i]);
             _titleParent.add(title);
-            for (int j = 0; j < arPenyakit.length - 1; j++) {
+            for (int j = 0; j < arPenyakit.length - 2; j++) {
                 //for (TitleParent titlel : titles) {
                 List<Object> childList = new ArrayList<>();
                 childList.add(new TitleChild(arPenyakit[i], arPenyakit1[i], "", arFoto[i]));

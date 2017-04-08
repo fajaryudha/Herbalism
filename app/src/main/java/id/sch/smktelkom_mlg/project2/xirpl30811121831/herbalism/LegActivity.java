@@ -49,11 +49,11 @@ public class LegActivity extends AppCompatActivity implements HerbalismAdapter.I
     private void fillData() {
 
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.places1);
-        String[] arDescripsi = resources.getStringArray(R.array.place_desc1);
-        String[] arDetail = resources.getStringArray(R.array.place_details1);
-        String[] arLokasi = resources.getStringArray(R.array.place_locations1);
-        TypedArray a = resources.obtainTypedArray(R.array.places_picture1);
+        String[] arJudul = resources.getStringArray(R.array.kulit_oyi1);
+        String[] arDescripsi = resources.getStringArray(R.array.kulit_oyi1);
+        String[] arDetail = resources.getStringArray(R.array.kulit_oyi1);
+        String[] arLokasi = resources.getStringArray(R.array.kulit_oyi1);
+        TypedArray a = resources.obtainTypedArray(R.array.gambar_kulit);
         String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             int id = a.getResourceId(i, 0);
@@ -74,22 +74,6 @@ public class LegActivity extends AppCompatActivity implements HerbalismAdapter.I
     public void doClick(int pos) {
         if (pos == 0) {
             Intent intent = new Intent(this, Kulit.class);//ListBodyActivity diubah untuk menuju ke activity yang diinginkan
-            intent.putExtra(HERBALISM, mList.get(pos));
-            startActivity(intent);
-        } else if (pos == 1) {
-            Intent intent = new Intent(this, Mata.class); //MainActivity diubah untuk menuju ke activity yang diinginkan
-            intent.putExtra(HERBALISM, mList.get(pos));
-            startActivity(intent);
-        } else if (pos == 2) {
-            Intent intent = new Intent(this, Hidung.class);
-            intent.putExtra(HERBALISM, mList.get(pos));
-            startActivity(intent);
-        } else if (pos == 3) {
-            Intent intent = new Intent(this, Mulut.class);
-            intent.putExtra(HERBALISM, mList.get(pos));
-            startActivity(intent);
-        } else if (pos == 4) {
-            Intent intent = new Intent(this, Telinga.class);
             intent.putExtra(HERBALISM, mList.get(pos));
             startActivity(intent);
         }

@@ -23,13 +23,10 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
-                android:layout_width="350dp"
-                android:layout_height="250dp"
-                android:layout_gravity="center"
-                android:paddingBottom="32dp"
-                android:paddingTop="16dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/w2"
                 android:transitionName="HeadTransition"
                 app:layout_collapseMode="parallax" />
 

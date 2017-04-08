@@ -97,8 +97,10 @@
             android:name=".Anus"
             android:parentActivityName=".HeadActivity"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Kulit" />
-        <activity android:name=".Tulang"></activity>
+        <activity
+            android:name=".Kulit"
+            android:parentActivityName=".HeadActivity"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

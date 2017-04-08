@@ -72,9 +72,20 @@ Baking Soda juga ternyata bisa membantu dalam menghilangkan kapalan. Caranya cuk
 </item>
     </string-array>
 
-    <array name="sebab_anus">
+    <array name="sebab_kaki">
         <item>@drawable/mata_ikan</item>
         <item>@drawable/cantengan</item>
         <item>@drawable/kapalan</item>
     </array>
+    <array name="gambar_kulit">
+        <item>@drawable/kulit_kaki</item>
+    </array>
+    <string-array name="kulit_oyi1">
+        <item>Oyi</item>
+    </string-array>
+    <string-array name="kulit_oyi">
+        <item>Oyi</item>
+        <item>Oyi</item>
+        <item>Oyi</item>
+    </string-array>
 </resources>
