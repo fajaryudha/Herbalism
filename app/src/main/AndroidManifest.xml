@@ -42,6 +42,11 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".LegActivity"
+            android:label="@string/title_activity_head"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".AboutUsActivity"
             android:theme="@style/AppTheme" />
         <activity

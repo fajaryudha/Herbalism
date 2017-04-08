@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBody(View view) {
         ImageView body = (ImageView) findViewById(R.id.BodyImage);
-        Intent intent = new Intent(getApplicationContext(), BodyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), LegActivity.class);
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, body, "HeadTransition");
         startActivity(intent, options.toBundle());
     }
