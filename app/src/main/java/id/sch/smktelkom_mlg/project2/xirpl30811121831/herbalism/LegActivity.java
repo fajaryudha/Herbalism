@@ -26,7 +26,7 @@ public class LegActivity extends AppCompatActivity implements HerbalismAdapter.I
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leg);
-        this.setTitle("Leg");
+        this.setTitle("Organ Bawah");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
