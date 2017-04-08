@@ -22,10 +22,10 @@ import id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.model.Herbalism;
 
 public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.ViewHolder> {
 
-    private int lastposition = -1;
-    private Context context;
     ArrayList<Herbalism> herbalismList;
     IHerbalismAdapter mIHerbalismAdapter;
+    private int lastposition = -1;
+    private Context context;
 
     public HerbalismAdapter(Context context, ArrayList<Herbalism> herbalismList) {
         this.herbalismList = herbalismList;
@@ -52,7 +52,7 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
 
     private void setAnimation(View itemView, int position) {
         if (position>lastposition) {
-            Animation animation = AnimationUtils.loadAnimation(context,R.animator.up_from_bottom);
+            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
             itemView.startAnimation(animation);
             lastposition = position;
         }
@@ -63,6 +63,12 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
         if (herbalismList != null)
             return herbalismList.size();
         return 0;
+    }
+
+    @Override
+    public void onViewDetachedFromWindow(ViewHolder holder) {
+        super.onViewDetachedFromWindow(holder);
+        holder.itemView.clearAnimation();
     }
 
     public interface IHerbalismAdapter {
@@ -85,11 +91,5 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
                 }
             });
         }
-    }
-
-    @Override
-    public void onViewDetachedFromWindow(ViewHolder holder) {
-        super.onViewDetachedFromWindow(holder);
-        holder.itemView.clearAnimation();
     }
 }
