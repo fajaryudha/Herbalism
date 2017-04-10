@@ -18,12 +18,14 @@
         <item>Mata Ikan</item>
         <item>Ingrown Toe Nail</item>
         <item>Kapalan</item>
+        <item>Osteoarthritis</item>
     </string-array>
 
     <string-array name="arti_kaki">
         <item>Kalvus adalah penebalan kulit yang timbul akibat tekanan dan gesekan secara terus-menerus di permukaan kaki. Biasanya timbul setelah menggunakan sepatu yang terlalu keras dan tidak pas. Selain itu, mata ikan juga bisa disebabkan oleh beberapa jenis bakteri.</item>
         <item>Ingrown toe nail atau cantengan disebabkan oleh pertumbuhan kuku yang kurang baik. Arah tumbuh kuku bukannya keluar, melainkan menusuk kulit halus di sekitar area kulit tempat kuku tumbuh, umumnya area samping, sehingga menimbulkan luka. Lambat laun akan membengkak akibat terinfeksi kotoran dan kuman-kuman yang menempel dari alas kaki yang dipakai atau dari lantai yang kotor.</item>
         <item>Kapalan merupakan sebuah respons kulit secara alami, yakni penumpukan sel kulit mati pada bagian kaki, sebagai akibat dari tekanan berlebih dan berlangsung secara terus-menerus.</item>
+        <item>penyakit ini sebagian besar terjadi pada usia lanjut. Penyakit ini merupakan arthritis yang tidak menimbulkan peradangan pada sendi. Biasanya penyakit ini menyerang sendi pada lengan, pergelangan lutut, kaki, bahu dan pinggul penyakit ini adalah nama lain dari rematik.</item>
     </string-array>
 
     <string-array name="obat_kaki">
@@ -69,6 +71,14 @@ Selain penggunaan air lemon untuk kapalan, Anda juga bisa menggunakan kulit lemo
 5.) Baking Soda\n
 Baking Soda juga ternyata bisa membantu dalam menghilangkan kapalan. Caranya cukup mudah yakni dengan menggunakan air hangat kemudian dicampur dengan baking sodan dan rendam kaki selama kurang lebih 15 menit. Setelah itu untuk mengikis kulit yang kapalan Anda bisa menggunakan batu apung,
 </item>
+        <item>
+            \n\n\1. Cabai Merah
+\nJika Anda suka makanan pedas dan menderita arthritis, maka makan cabai adalah salah satu pengobatan yang mungkin Anda sukai, karena ternyata cabai juga memiliki efek baik meredakan peradangan sendi. Anda bisa makan makanan pedas atau cukup digosok pada bagian yang nyeri. Rasanya mungkin panas pada awalnya, namun ini akan memberikan rasa hangat dan menghilangkan nyeri. Jika menggunakan cabai rawit atau merah terlalu panas, Anda bisa mencampurnya dengan minyak zaitun dan oles ketika akan tidur.
+    \n\n2. Paku ekor kuda
+\nSalah satu tanaman hias yang juga bisa dijadikan obat pereda nyeri saat arthritis menyerang adalah tanaman hijau paku ekor kuda. Anda bisa menjadikannya jus dan diminum setiap hari untuk meredakan nyeri.
+    \n\n3. Kemangi
+\nDaun kemangi dan keluarga basil lain juga sangat baik meredakan nyeri. Anda bisa menambahkan dalam lalapan atau dijus setiap hari. Atau jika Anda punya tanaman basil, Anda juga bisa menyeduhnya sebagai teh dan diminum setiap 3 kali sehari.
+        </item>
     </string-array>
 
     <array name="sebab_kaki">
@@ -80,6 +90,9 @@ Baking Soda juga ternyata bisa membantu dalam menghilangkan kapalan. Caranya cuk
         <item>@drawable/kulit_kaki</item>
     </array>
     <string-array name="kulit_oyi1">
+        <item>Lapisan luar dari tubuh (Menutupi)</item>
+    </string-array>
+    <string-array name="kulit_oyi2">
         <item>Kulit</item>
     </string-array>
     <string-array name="kulit_oyi">

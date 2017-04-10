@@ -31,7 +31,9 @@
             android:paddingBottom="8dp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
-            android:paddingTop="8dp">
+            android:paddingTop="8dp"
+            android:weightSum="1">
+
             <TextView
                 android:id="@+id/textViewJudul"
                 android:layout_width="match_parent"
@@ -44,7 +46,7 @@
             <TextView
                 android:id="@+id/textViewDes"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
+                android:layout_height="60dp"
                 android:gravity="center"
                 android:maxLines="3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"

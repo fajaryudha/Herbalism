@@ -17,11 +17,16 @@
     <string-array name="penyakit_ginjal">
         <item>Batu Ginjal</item>
 	<item>Gagal Ginjal</item>
+        <item>Radang Ginjal (Nefritis)</item>
+        <item>Sistisis</item>
     </string-array>
 
 <string-array name="arti_ginjal">
         <item>Penyakit batu ginjal atau nefrolitiasis adalah suatu kondisi ketika material keras yang menyerupai batu terbentuk di dalam ginjal. Material tersebut berasal dari sisa zat-zat limbah di dalam darah yang disaring oleh ginjal yang kemudian mengendap dan mengkristal seiring waktu.</item>
-	<item>Penyakit ginjal kronis atau yang lebih dikenal di masyarakat dengan istilah gagal ginjal kronis (GGK) adalah kondisi saat fungsi ginjal mulai menurun secara bertahap. Status GGK berubah menjadi gagal ginjal tahap akhir (End-Stage Renal Disease/ESRD) ketika ginjal tidak lagi berfungsi. Pada stadium ini biasanya telah terjadi penumpukan limbah tubuh, cairan, dan elektrolit yang bisa membahayakan tubuh jika tanpa dilakukan penyaringan buatan (dialisis/cuci darah) atau transplantasi ginjal.</item>   
+    <item>Penyakit ginjal kronis atau yang lebih dikenal di masyarakat dengan istilah gagal ginjal kronis (GGK) adalah kondisi saat fungsi ginjal mulai menurun secara bertahap. Status GGK berubah menjadi gagal ginjal tahap akhir (End-Stage Renal Disease/ESRD) ketika ginjal tidak lagi berfungsi. Pada stadium ini biasanya telah terjadi penumpukan limbah tubuh, cairan, dan elektrolit yang bisa membahayakan tubuh jika tanpa dilakukan penyaringan buatan (dialisis/cuci darah) atau transplantasi ginjal.</item>
+    <item>Radang ginjal disebut juga nefritis. Radang ginjal terjadi karena adanya kerusakan pada nefron, khususnya glomerulus yang disebabkan oleh infeksi bakteri. Rusaknya nefron mengakibatkan urine masuk kembali kedalam darah dan penyerapan air menjadi terganggu sehingga timbul pembengkakan pada daerah kaki.</item>
+    <item>Sistisis adalah radang pada kantung kemih terutama bagian mukosa dan sub mukosa. Sistisis bisa disebabkan oleh infeksi bakteri, zat kimia, atau luka.
+</item>
  </string-array>
 	
 <string-array name="obat_ginjal">
@@ -58,6 +63,56 @@ Telah diteliti bahwa daun sukun adalah bahan alami yang dapat mengobati gagal gi
 Caranya tidak akan ribet karena Anda hanya perlu menyiapkan daun sukun beberapa lembar saja yang kemudian Anda bisa cuci bersih lebih dulu. Selanjutnya, daun tersebut bisa direbus dengan air secukupnya dan biarkan sampai mendidih; pastikan bahwa dalam air tersebut daun telah hancur. Tinggalkan beberapa waktu sampai benar-benar dingin, lalu disaring sehingga yang tersisa hanya air rebusannya saja. Minumlah sehari 2 kali (pagi dan sore hari setelah makan) demi hasil terbaik.
 
 </item>
+    <item>
+      \n\n1. Kumis Kucing dan Daun Meniran
+\nBahan-Bahan Membuat Ramuan Obat Radang Ginjal / Nefritis Alami :
+\n- Sediakan kumis kucing 1 genggam
+\n- Daun meniran dan batangnya 7 batang
+\n- Air secukupnya.
+\n
+\nCara Meracik Ramuan :
+\nSemua bahan direbus hingga airnya tersisa separuh. Air rebusan itu diminum 3 kali sehari dan ulangi setiap hari hingga radang ginjal sembuh.
+\n
+\n\n2. Daun Sirsak
+\nBahan-Bahan Membuat Ramuan Obat Radang Ginjal / Nefritis Alami :
+\n- Daun sirsak secukupnya
+\n- Air secukupnya
+\n- Madu
+\n
+\nCara Meracik Ramuan :
+\n- Cuci bersih daun sirsak
+\n- Masak dengan ari yg secukupnya
+\n- Setelah matang iriskan, tunggu sampai hangat lalu tambahkan madu secukupnya untuk menteralisir rasa yg pahit dari daun sirsak
+\n- Minum rutin ramuan obat alami ini untuk membantu mengobati radang ginjal.
+
+\n\n3. Daun sambiloto, Daun kumis kucing dan Rambut Jagung
+\nBahan-Bahan Membuat Ramuan Obat Radang Ginjal / Nefritis Alami :
+\n- Daun sambiloto segar 30 gram atau daun sambiloto kering 15 gram
+\n- Daun kumis kucing secukupnya
+\n- Rambut Jagung secukupnya
+\n
+\nCara Meracik Ramuan :
+\n- Semua bahan di atas direbus dengan air 1 liter, sisakan setengah liter.
+        \n- Saring kemudian minum airnya, konsumsi rutin untuk membantu menyembuhan penyakit radang ginjal.
+\n
+\n\n4. Biji kopi, Temulawak, Akar alang-alang, Meniran dan Asam kawak
+\nBahan-Bahan Membuat Ramuan Obat Radang Ginjal / Nefritis Alami :
+\n- Biji kopi ditumbuk halus 25 gram
+\n- Temulawak diiris-iris 30 gram
+\n- Akar alang-alang dipotong-potong 25 gram
+\n- Meniram 30 gram
+\n- Asam kawak secukupnya
+\n
+\nCara Meracik Ramuan :
+\n- Semua bahan di atas direbus dengan air 1 liter, sisakan setengah liter.
+        \n- Saring kemudian minum airnya, konsumsi rutin untuk membantu menyembuhan penyakit radang ginjal.
+
+    </item>
+    <item>
+       Pada usia lanjut, infeksi tanpa gejala biasanya tidak memerlukan pengobatan. Untuk sistitis ringan, langkah pertama yang bisa dilakukan adalah minum banyak cairan. Aksi pembilasan ini akan membuang banyak bakteri dari tubuh, bakteri yang tersisa akan dilenyapkan oleh pertahanan alami tubuh.
+Pemberian antibiotik per-oral (tablet, kapsul, sirup) selama 3 hari atau dosis tunggal biasanya efektif, selama belum timbul komplikasi. Jika infeksinya kebal, biasanya antibiotik diberikan selama 7-10 hari. Untuk meringankan kejang otot bisa diberikan atropin. Untuk mengurangi nyeri bisa diberikan fenazopiridin. Gejalanya seringkali bisa dikurangi dengan membuat suasana air kemih menjadi basa, yaitu dengan meminum baking soda yang dilarutkan dalam air.
+Pembedahan dilakukan untuk mengatasi penyumbatan pada aliran kemih (uropati obstruktif) atau untuk memperbaiki kelainan struktur yang menyebabkan infeksi lebih mudah terjadi. Biasanya sebelum pembedahan diberikan antibiotik untuk mengurangi resiko penyebaran infeksi ke seluruh tubuh.
+    </item>
     </string-array>
    
     <array name="sebab_ginjal">
