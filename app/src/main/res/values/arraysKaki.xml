@@ -80,6 +80,9 @@ Baking Soda juga ternyata bisa membantu dalam menghilangkan kapalan. Caranya cuk
         <item>@drawable/kulit_kaki</item>
     </array>
     <string-array name="kulit_oyi1">
+        <item>Lapisan luar dari tubuh (Menutupi)</item>
+    </string-array>
+    <string-array name="kulit_oyi2">
         <item>Kulit</item>
     </string-array>
     <string-array name="kulit_oyi">
