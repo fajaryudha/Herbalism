@@ -16,6 +16,8 @@
 <resources>
     <string-array name="penyakit_mata">
         <item>Mata Berair</item>
+        <item>Konjuntivitas</item>
+        <item>Katarak</item>
     </string-array>
 
 <string-array name="arti_mata">
@@ -25,7 +27,12 @@
 	menguap dan menjadikannya lebih cepat mengering. Mata kering inilah 
 	yang merangsang produksi air mata secara berlebih sehingga menyebabkan 
 	mata berair</item>
-    </string-array>
+    <item>
+     Konjungtivitis adalah penyakit mata yang disebabkan karena adanya peradangan pada selaput mata, gejala yang timbul berupa mata merah, gatal, dan berair. Penyebab penyakit mata ini antara lain iritasi karena polusi, alergi, dan infeksi yang disebabkan oleh bakteri, virus, dan jamur.
+    </item>
+    <item>Katarak adalah penyakit mata yang disebabkan oleh lensa mata yang keruh sehingga masuknya cahaya pada retina jadi terhalang, katarak umumnya disebabkan karena proses penuaan. Tetapi, beberapa faktor seperti paparan sinar ultraviolet, penggunaan obat-obatan seperti steroid dan diabetes juga dapat meningkatkan risiko katarak. katarak merupakan penyakit mata penyebab kebutaan pertama di Indonesia, untuk mengatasinya, perlu dilakukan operasi mata guna mengangkat lensa berkabut yang sudah tua dan menggantinya dengan implantasi lensa plastik baru.
+    </item>
+</string-array>
 	
 <string-array name="obat_mata">
 <item>
@@ -62,6 +69,56 @@ sudah mengering. Irisan timun sangat efektif untuk mengatasi mata gatal karena t
  Caranya iris tipis kentang mentah kemudian tempelkan dimata anda, ini akan membantu mendinginkan anda membuat rileks mata 
 anda sehingga dapat menghilangkan rasa gatal dan warna merah akibat mata perih, iritasi dan berair.
 </item>
+    <item>
+        \n\n1. Blueberry
+        \n buah ini memiliki kandungan vitamin C, vitamin E, vitamin A, flavonoid dan karotenoid yang berfungsi memelihara dan menjaga kesehatan mata.
+        Sehingga blueberry menjadi salah satu buah yang baik dan bagus untuk merawat dan menjaga
+        kesehatan mata yang dapat mengatasi berbagai masalah pada mata.
+        \n\n2. Eyelight
+        \ntanaman herbal yang semua bagiannya dapat dikonsumsi dan dijadikan ramuan herbal yang tentunya juga sangat baik bagi kesehatan mata.
+    </item>
+    \n\n1. Daun Sirih
+    \nKhasiat dan cara meramu / pemakaian: Obat Mata Bagian tanaman yang digunakan sebagai obat mata
+    adalah daun. Caranya: diambil daun muda dan segar 3 – 5 lembar, dicuci kemudian direbus. Setelah
+    mendidih didinginkan dan dimasukkan kedalam wadah (baskom). Masukkan (muka/mata) ditenggelamkan
+    dan mata dikedip-kedipkan.
+    \n\n2. Ki Tolod
+    \nTanaman ini memiliki nama ilmiah Isotoma Longiflora atau Laurentia Longiflora yang memiliki
+    kandungan senyawa alkaloid yaitu lobelin, lobelamin serta isotomin. Daunnya memiliki kandungan
+    alkaloid, saponin, flavonoid, serta polifenol. Getah tanaman memiliki kandungan racun, namun
+    sisi tanaman lain mempunyai dampak antiradang ( antiflamasi ), antikanker ( antineoplasmik ),
+    menyingkirkan nyeri serta menghentikan pendarahan.
+    \n\n3. Rumput Mutiara
+    \nRumput mutiara bisa digunakan untuk menghilangkan sumbatan – sumbatan dalam pembuluh darah
+    halus yang dapat menghambat aliran darah. Dengan mengonsumsi rumput mutiara, aliran darah
+    menjadi lancar. Ramuan rumput mutiara untuk men yembuhkan pembuluh darah pada mata dibuat dengan
+    cara merebus 30 gram daun rumput mutiara dalam empat gelas air hingga tersisa dua gelas. Air
+    rebusaannya diminum 2 – 3 kali sehari, masing – masing dua gelas.
+    \n\n4. Daun Dewa
+    \nDaun dewa bisa digunakan untuk menobati kebutaan yang cukup lama dan menurunkan kolesterol
+    tinggi. Daun dewa bisa menghancurkan pembekuan darah di pemnbuluh darah, sehingga aliran darah
+    menjadi lancar. Bagi penderita gangguan pada mata yang pernah mengalami kecelakaan di bagian
+    kepala, bisa menggunakan daun dewa yang dikombinasikan dengan umbi dewa.
+    Cara mewmbuat ramuannya dalah merebus 3 – 4 lembar daun dewa ditambah dengan 15 – 30 gram
+    umbinya dalam tiga gelas air hingga tersisa satu gelas. Air rebusnya diminum 2 – 3 kali sehari.
+    \n\n5. Daun Sendok atau Kiurat
+    \nDaun sendok atau Plabtago major berkhasiat untuk mengobati gangguan pada mata. Selain itu,
+    dau8n sendok juga berkhasiat untuk memperkuat wilayah hati dan meningkatkan fungsi ginjal.
+    Selain itu, daun sendok juga bisa meningkatkan gairah seksual. Daun sendok atau kiurat
+    mengandung vitamin A, B, C, kalium dan kalsium.
+    Ramuan dari daun sendok untuk menyembuhkan berbagai gangguan pada mata dibuat dengan cara
+    merebus setengah genggam daun sendok dalam tiga gelas air hiongga tersisa dua seperempat gelas.
+    Air rebusannya disaring, lalu diminum tiga kali sehari, masing – masing tiga seperempat gelas.
+    Sebelum diminum, sebaiknya ramuan dicampur dengan madu.
+    \n\n6. Kembang Telang
+    \nKembang telang atau Clitoria ternatea L. termasuk famili Papilionaceae. Tanaman ini berkhasiat
+    untuk menyembuhkan beberapa penyakit, seperti abses, bisul, sakit telilnga, demam, busung perut,
+    dan radang mata merah. Khususnya untuk menyembuhkan radang mata merah, bagian tanaman yang
+    digunakan adalah bunga. Bunga kembang telang yang berwarna buri direndam hingga menghasilkan air
+    rendaman yang berwarna bitru. Air rendaman tersebut dipakai untuk mencuci mata.
+    <item>
+
+    </item>
     </string-array>
 
     

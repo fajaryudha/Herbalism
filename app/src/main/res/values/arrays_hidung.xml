@@ -16,12 +16,17 @@
 <resources>
     <string-array name="penyakit_hidung">
         <item>Mimisan</item>
+        <item>Sinusitis</item>
+        <item>Pilek atau Flu</item>
+        <item>Polip Hidung</item>
     </string-array>
 
  <string-array name="arti_hidung">
         <item>Mimisan adalah pendarahan yang terjadi dari hidung. Darah dapat keluar dari salah satu atau kedua lubang hidung dengan durasi yang berbeda-beda. Ada yang mengalaminya hanya selama beberapa detik, dan ada yang lebih dari 10 menit.</item>
-       
-    </string-array>
+     <item>Penyakit sinusitis adalah perangan yang terjadi di dalam hidung, di dalam hidung teradapat bebebrapa rongga yang di namakanan rongga sinus. Rongga berfungsi untuk mengatur kelembaban oksigen yang dihirup tubuh. Ketika terinfeksi rongga tersebut kemudian melami pembengkakan/peradangan, yang dapat menyebabkan penyumbatan.</item>
+     <item>Ini adalah penyakit dimana hidung terinfeksi virus. Jika virus flu menyerang biasanya penderita akan mengalami batuk. Bukan itu saja tapi juga dapat terserang demam, sakit kepala, nyeri sendi dan suhu tubuh meningkat.</item>
+     <item>Polih hidung adalah penyakit hidung dimana tumbuhnya tumor kecil pada hidung. Tumor ini jinak, tapi dapat mengganggu hidung. Polih hidung dapat mengganggu hidung seperti mengurangi daya penciuman, membuat hidung mampet, tidur ngorok, pilek berkepanjangan, dan suara bingdeng.</item>
+ </string-array>
     <string-array name="obat_hidung">
         <item>
 1.	Posisi duduk lebih condong ke depan \n
@@ -41,11 +46,47 @@ Sediakan 25 gram kangkung segar dan air secukupnya, kemudian masukkan ke dalam b
 \n 8.	Kacang Tanah \n
 Siapkan 25 gram kulit kacang tanah, kemudian rebus bersama 400 cc air. Setelah airnya berkurang setengah dari semula, disaring. Minum airnya ketika hangat. 
 	</item>
+        <item>
+       \n\n1. Mengompres Hidung dengan Air Hangat
+\nSinusitis yang berat bisa menyebabkan aliran cairan dalam hidung terhambat. Hal ini bisa menyebabkan sakit kepala yang buruk. Untuk mengatasi hal ini maka bisa mencoba mengompres hidung dengan air hangat. Anda bisa menuangkan air panas ke dalam mangkuk atau panci kecil. Kemudian ambil handuk atau kain yang lembut dan rendam dalam air hangat. Setelah itu angkat dan letakkan pada bagian antara hidung dan dahi. Anda juga bisa melakukan tehnik uap dengan menguap hidung secara langsung menghadap ke air panas. Cara ini akan membantu mengalirkan cairan dalam hidung
+       \n\n2. Melembabkan Hidung
+            \nPerawatan lain yang bisa mengobati sinusitis dengan cepat adalah dengan mengalirkan air secara langsung ke bagian dalam hidung. Anda bisa menggunakan sebuah alat yang disebut dengan neti pot. Alat ini akan membantu menyiramkan air ke dalam hidung secara bergantian. Anda bisa menggunakan air yang sudah dicampur dengan sedikit garam dapur. Air akan membantu mengalirkan cairan dalam hidung dan mengurangi sumbatan dalam hidung. Cara ini bisa digunakan jika sinusitis masih dalam tahap awal.
+            \n\n3. Makan Nanas
+            \nMengkonsumsi nanas saat sinusitis sedang kambuh juga bisa membantu penyembuhan menjadi lebih cepat. Buah nanas mengandung bahan bromelain yang bisa mengurangi peradangan pada bagian rongga sinus. Namun mengkonsumsi nanas saat sinusitis kambuh sebaiknya juga tidak dilakukan bersamaan dengan obat dari dokter. Efek bromelain adalah bisa menghilangkan kinerja obat sehingga perawatan ini bisa bertentangan. Bromelain yang berasal dari nanas bisa menghilangkan efek obat dan membuat tubuh menjadi tidak nyaman.
+            \n\n4. Minum Air Jahe
+            \nJahe merupakan salah satu bahan alami yang bisa membantu menyembuhkan sinusitis. Jahe mengandung bahan antiperadangan alami yang sangat baik menyembuhkan peradangan pada sinusitis.  Anda bisa membuat air rebusan jahe yang bisa diminum. Campurkan satu ruas jari jahe atau biang jahe yang masih segar ke dalam dua gelas air mineral. Kemudian rebus hingga mendidih dan menyisakan satu gelas saja. Tambahkan satu sendok madu murni ketika masih hangat dan segera diminum. Jahe akan membantu mengurangi efek peradangan dan mengeluarkan cairan dari dalam tubuh. Bahkan jahe bisa mengurangi efek sinusitis yang cukup buruk.
+            \n\n5. Minum Jus Buah dan Tambahkan Minyak Oregano
+            \nMinyak oregano sudah dipercaya sejak lama bisa menyembuhkan sinusitis. Hal ini bisa dipengaruhi dari kandungan bahan alami dalam minyak oregano. Kandungan minyak ini akan meningkatkan fungsi antibiotik alami dalam bahan. Bahkan minyak oregano juga bisa mencegah infeksi dari virus atau bakteri. Anda bisa menambahkan satu tetes minyak oregano ke dalam jus buah atau air hangat biasa. Efeknya akan terasa sejuk pada bagian tenggorokan dan hidung. Kemudian minyak oregano akan membantu mengeluarkan cairan dari dalam hidung. Cara ini akan membuat sinusitis sembuh dengan cara yang sangat alami.
+        </item>
+        <item>
+            \n\n1. Perbanyak Minum Air Putih
+\nMengapa harus minum air puith? jawabannya simple, karena air putih memang mempunyai segudang manfaat yang diantaranya juga dapat membantu mengobati penyakit flu atau pilek.
+Usahakan minum air puith minimal 8 gelas / harinya. Hal tersebut bertujuan untuk menjaga agar tenggorokan anda bersih dari kuman yang bisa menyebabkan flu.
+            \n\n2. Konsumsi Buan dan Sayuran
+            \nSaat kondisi tubuh anda melemah, otomatis sistem kekebalan tubuh anda akan melemah. Maka dari itu asupan vitamin dan mineral sangat diperlukan untuk membantu mengembalikan kondisi tubuh.
+Selain itu untuk membantu memperbaiki sistem kekebalan tubuh agar tidak meudah terserang penyakit
+            \n\n3. Gunakan Aroma Mentol / Mint
+            \nMenggunakan aroma mentol atau mint adalah salah satu cara saya dalam mengatasi penyakit flu atau pilek.
+Caranya mudah, anda hanya perlu mengoleskan minyak kayu putih atau balsam di dekat lubang hidung, tenggorokan dan dibagian dada anda.
+        </item>
+        <item>
+           \n\n1. Jeruk nipis dan jahe
+\nObat tradisional untuk mengobati penyakit polip hidung yang pertama adalah dengan cara menggunakan jeruk nipis dan jahe. Caranya, peras jeruk nipis kemudian campurkan dengan jahe yang sudah dihaluskan dan dikeringkan. Tak hanya itu saja, Anda juga harus mencampurkan bahan alami lainnya seperti cengkeh, daun sirih dan juga daun sereh. Rebus semua bahan tersebut hingga mendidih. Setelah itu, saring airnya dan minumlah ramuan tersebut. Lakukan hal ini secara rutin yaitu setiap pagi selama satu bulan.
+\n\n2. Kunyit dan benalu teh
+\nObat tradisional yang kedua adalah dengan menggunakan kunyit dan benalu teh. Caranya, cuci bersih semua bahan tersebut kemudian rebus kedua bahan alami itu hingga mendidih. Saring dan dinginkan. Minumlah ramuan tersebut selama 2 kali sehari secara rutin.
+            \n\n3. Temu putih dan sambiloto
+            \nObat tradisional untuk mengobati penyakit polip hidung selanjutnya adalah dengan memanfaatkan temu putih dan daun sambiloto. Cara meramunya pun sangat mudah. Yaitu, pertama pastikan Anda mencuci kedua bahan tersebut hingga bersih. Kemudian rebus hingga mendidih dengan menggunakan 700 cc air. Jika air sudah tersisa hanya 300 cc Anda dapat menyaring dan mendingingkannya. Setelah itu, minumlah obat tradisional dari temu putih dan sambiloto ini 2 kali sehari secara rutin.
+\n\n4. Daun sirih dan daun cemara
+            \nUntuk membuat obat tradisional yang satu ini Anda harus menyiapkan beberapa bahan-bahan seperti beberapa lembar daun cemara, daun sirih dan juga beberapa ruas kunyit. Setelah semuanya siap, cuci semua bahan hingga bersih. Untuk kunyit, Anda harus mengupas dan memarutnya hingga halus. Setelah itu rebus parutan kunyit bersama dengan daun sirih dan daun cemara. Kemudian tuangkan ramuan tersebut ke dalam panci lalu hiruplah uap panas yang dihasilkan. Lakukan pengobatan ini secara teratur untuk mempercepat proses penyembuhan penyakit polip hidung.
+\n\n5. Mengonsumsi makanan kaya vitamin C
+\nSelain untuk meningatkan sistem imun tubuh, vitamin C juga bisa membantu untuk mengobati polip. Zat yang terdapat pada buah asam memiliki kandungan yang hampir sama dengan vioflavonoid yaitu suatu zat yang dapat membantu menjaga kesehatan pembuluh darah di dalam jaringan hidung.
+        </item>
     </string-array>
 
     <string-array name="gejala_hidung">
          <item>	•	Mimisan yang berlangsung lebih dari 30 menit. Jika mengalaminya, Anda sebaiknya segera ke rumah sakit.
 \n •    	Mimisan yang terjadi pada anak-anak berusia di bawah 2 tahun.
+
 \n •    	Mimisan dengan volume darah yang banyak.
 \n •	    Mimisan yang terjadi setelah operasi di daerah hidung atau sinus.
 \n •	    Sering mimisan dalam waktu singkat.

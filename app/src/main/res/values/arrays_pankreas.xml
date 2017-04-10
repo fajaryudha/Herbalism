@@ -16,11 +16,12 @@
 <resources>
     <string-array name="penyakit_pankreas">
         <item>Diabetes</item>
+        <item>Pankreatis</item>
     </string-array>
 
     <string-array name="arti_pankreas">
         <item>Diabetes (diabetes melitus) adalah penyakit jangka panjang atau kronis yang ditandai dengan kadar gula darah (glukosa) yang jauh di atas normal. Glukosa sangat penting bagi kesehatan kita karena merupakan sumber energi utama bagi otak maupun sel-sel yang membentuk otot serta jaringan pada tubuh kita.</item>
-       
+        <item>Pankreatitis atau yang sering disebut dengan inflamasi pankreas adalah penyakit serius yang terjadi pada kelenjar pankreas yang menimbulkan rasa nyeri di mana enzim pankreas diaktifkan secara prematur dan mengakibatkan autodigestif dari pankreas. </item>
     </string-array>
     <string-array name="obat_pankreas">
         <item>
@@ -60,6 +61,16 @@
 \n - Minum pagi dan malam sebelum tidur.
 
 	</item>
+        <item>
+            \n\n1. Jahe
+            \nebagai Tanaman Obat untuk Herbal Asam Urat, siapkan jahe sebanyak 2 ibu jari. Jahe tersebut kemudian dipotong-potong dan juga sedikit diremukkan.
+Rebus jahe yang sudah diremukkan tersebut dengan menggunakan air 1 gelas  Jika sudah matang, maka air tersebut dapat diminum dan ramuan herbal ini dapat diminum setiap hari secara teratur agar hasil yang diberikan maksimal.
+            \n\n2. Cengkeh
+            \nsebagai Tanaman Obat untuk Herbal Asam Urat, Caranya cukup mudah yaitu dengan menumbuk cengkeh yang juga dicampur dengan jahe, takarannya 1 sama. Ramuan herbal ini hanya digunakan untuk bagian luarnya saja, di bagian yang terasa sakit. Oleskanlah ramuan herbal  ini secara rutin agar hasilnya maksimal.
+            \n\n3. Akar Pepaya Gantung
+            \nTanaman Obat untuk Herbal ini terutama untuk asam urat dan rematik, caranya yaitu dengan menyediakan 5 potong akar pepaya. Kemudian cuci hingga bersih, untuk ukurannya yaitu sekitar jari. Setelah itu, potong kecil-kecil dan tambahkan 3 sendok makan lengkuas yang sudah dihaluskan.
+Rebus bahan-bahan herbal  tersebut dengan menggunakan 4 gelas air, rebus hingga yang tersisa yaitu sekitar 3 gelas herbal . Tambahkan pula gula aren, sedikit saja. Ramuan herbal ini dapat diminum sehari 3 kali dan dalam sekali minum yaitu sekitar setengah gelas.
+        </item>
     </string-array>
  
     <array name="sebab_pankreas">
