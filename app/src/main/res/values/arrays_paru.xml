@@ -17,12 +17,14 @@
     <string-array name="penyakit_paru">
         <item>Asma</item>
 	<item>TBC</item>
+        <item>Pneumonia</item>
     </string-array>
 
 <string-array name="arti_paru">
         <item>Asma adalah jenis penyakit jangka panjang atau kronis pada saluran pernapasan yang ditandai dengan peradangan dan penyempitan saluran napas yang menimbulkan sesak atau sulit bernapas. Selain sulit bernapas, penderita asma juga bisa mengalami gejala lain seperti nyeri dada, batuk-batuk, dan mengi. Asma bisa diderita oleh semua golongan usia, baik muda atau tua. </item>
-	<item>Tuberkulosis (TB) yang juga dikenal dengan singkatan TBC, adalah penyakit menular paru-paru yang disebabkan oleh basil Mycobacterium tuberculosis. Penyakit ini ditularkan dari penderita TB aktif yang batuk dan mengeluarkan titik-titik kecil air liur dan terinhalasi oleh orang sehat yang tidak memiliki kekebalan tubuh terhadap penyakit ini.</item>   
- </string-array>
+    <item>Tuberkulosis (TB) yang juga dikenal dengan singkatan TBC, adalah penyakit menular paru-paru yang disebabkan oleh basil Mycobacterium tuberculosis. Penyakit ini ditularkan dari penderita TB aktif yang batuk dan mengeluarkan titik-titik kecil air liur dan terinhalasi oleh orang sehat yang tidak memiliki kekebalan tubuh terhadap penyakit ini.</item>
+    <item>Pneumonia adalah peradangan jaringan di salah satu atau kedua paru-paru yang biasanya disebabkan oleh infeksi. Pada saat menderita pneumonia, sekumpulan kantong-kantong udara yang kecil di ujung saluran pernapasan dalam paru-paru akan bengkak dan penuh cairan.</item>
+</string-array>
 	
 <string-array name="obat_paru">
 <item>
@@ -51,6 +53,18 @@ Dalam beberapa waktu baru kita akan merasakan khasiat daun sirsak tersebut dan p
 Untuk efek yang diberikan saat minum air rebusan daun sirsak ini adlah perut akan terasa panas dan akan mengeluarkan keringat yang banyak.
 
 </item>
+    <item>
+       \n\n1. Kulit Manggis
+        \n Sebagai salah satu buah super, rupanya manfaat buah ini tidak hanya dapat di ambil dari daging buahnya saja, melainkan dari kulit buahnya juga. Kulit buah yang satu ini telah di akui dan terbukti memiliki kandungan manfaat serta khasiat yang begitu banyak untuk kesehatan tubuh, terutama untuk pengobatan penyakit, seperti untuk obat alami paru paru basah.
+        \n\n2. Daun Sirsak
+        \nelama ini mungkin banyak orang yang mengabaikan dan tidak memperdulikan daun sirsak, karena mereka tidak tahu bahwa daun sirsak mempunyai banyak sekali khasiat yang berguna untuk kesehatan tubuh. Padahal dari zaman dulu daun sirsak ini sudah banyak di manfaatkan sebagai obat alternatif untuk menyembuhkan berbagai jenis penyakit termasuk untuk obat tradisional paru paru basah.
+        \n\n3. Bawang Putih
+        \nBawang putih adalah salah satu jenis rempah yang memang pada umumnya lebih dikenal sebagai salah satu bahan tambahan bumbu dapur, yang dapat membuat masakan terasa lebih gurih. Namun kelebihan daun sirsak tidak hanya sebatas itu, ketahuilah bawang putih ini merupakan sumber anti-biotik dan antioksidan alami yang begitu ampuh dalam menumpas bakteri dan virus yang bersarang didalam tubuh. Paling tidak dengan memakan bawang putih secara rutin dan teratur setiap harinya, maka penyakit pneumonia yang di derita akan segera pulih.
+        \n\n4. Kunyit
+        \nKunyit merupakan salah satu jenis rempah yang sering pula di jadikan sebagai pelengkap bumbu masakan, untuk memberikan warna yang alami pada masakan. Sebagaimana yang telah kita ketahui, bahwa jenis rempah yang satu ini mempunyai banyak kandungan berkhasiat yang berguna untuk kesehatan tubuh. Sebab, didalam jenis rempah kunyit ini terkandung zat antioksidan yang kuat, dengan begitu tidaklah mengherankan apabila banyak para dokter yang merekomendasikan untuk mengkonsumsi kunyit setiap hari, terlebih bagi pengidap penyakit pneumonia.
+        \n\n5. Jahe
+        \nJenis rempah yang satu ini juga sama seperti bawang putih dan kunyit, didalam jenis rempah jahe ini juga terkandung zat antioksidan alami yang berkemampuan untuk melindungi tubuh dari beragam jenis serangan penyakit. Untuk pengidap penyakit pneumonia, jahe ini populer dapat mendatangkan rasa hangat yang juga berguna untuk melegakan dan menangani gangguan pernapasan. Nah untuk mendapatkan khasiat dari jahe ini, Anda cukup memarut jahe sampai halus, kemudian masukkan parutan jahe tersebut kedalam segelas teh hangat. Nah, kemudian minum ramuan ini hingga habis, dengan catatan keadaan perut Anda masih kosong (sebelum makan).
+    </item>
     </string-array>
    
     <array name="sebab_paru">

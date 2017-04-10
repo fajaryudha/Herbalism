@@ -17,9 +17,11 @@
     <string-array name="penyakit_kepala">
         <item>Sakit Kepala</item>
         <item>Stroke</item>
+        <item>Hidrosefalus</item>
+        <item>Parkison</item>
+        <item>Meningitis</item>
+        <item>Epilepsi</item>
     </string-array>
-
-	
     <string-array name="arti_kepala">
         <item>Sakit kepala adalah rasa sakit yang muncul di sekitar kepala. 
 	Sakit kepala tidak memiliki jangka waktu tertentu, bisa berlangsung 
@@ -30,6 +32,31 @@
 	kematian sel-sel pada sebagian area di otak. Stroke adalah kondisi 
 	kesehatan yang serius yang membutuhkan penanganan cepat
         </item>
+        <item>
+	Hidrosefalus adalah penumpukan cairan di dalam tengkorak sehingga otak membengkak.
+	Secara harfiah, hidrosefalus berarti “air di otak”. Hidrosefalus terjadi dikarenakan
+	adanya masalah aliran cairan serebrospinal. Cairan ini mengelilingi sumsum otak dan
+	tulang belakang dan berfungsi sebagai pembawa nutrisi ke otak, membuang limbah dari
+	otak, dan menjadi bantalan otak. Aliran cairan tersebut bisa saja tersumbat atau
+	produksi cairannya yang berlebihan. Akibatnya tekanan otak tinggi sehingga otak
+	terdorong ke tengkorak dan merusak jaringan otak.
+	</item>
+        <item>
+			Parkinson adalah penyakit yang ditandai dengan tremor (gemetar), sikap agak kaku dan
+			mengalami gangguan saat berjalan. Penyakit ini dapat dialami oleh baik pria maupun wanita
+			dan dialami oleh 1% dari seluruh populasi. Pria lebih sering mengalami parkinson. Penyakit
+			ini biasanya dimulai pada usia 50 sampai 65 tahun. Biasanya gejala awal tidak disadari
+			sampai sudah cukup terlihat oleh dokter. Kehilangan lebih dari 80% dopamine menjadi
+			penyebab terjadinya parkinson.
+		</item>
+        <item>
+			Meningitis adalah radang yang terjadi pada membran pelindung sistem saraf pusat yang disebut meninges.
+			Meninges adalah selaput pelindung yang menyelimuti otak dan saraf tulang belakang. Meninges terdiri
+			dari tiga bagian yaitu duramater, arachnoid, dan piamater. Meningitis disebabkan oleh jamur, bakteri,
+			ataupun virus. Ketika meninges diserang, meninges akan meradang dan membengkak akibat infeksi. Hal
+			tersebut dapat merusak sistem saraf dan otak. Sehingga penderita seringkali berujung pada kematian.
+			Penyakit ini dapat dicegah dengan melakukan vaksinasi meningitis.
+		</item>
     </string-array>
 
     <string-array name="obat_kepala">
@@ -57,6 +84,100 @@
 	\n 3. Sisakan air rebusan min setengahnya dan saring
 	\n 4. Minum sarinya, konsumsi 3 kali dalam sehari
 	</item>
+        <item>
+			\n\n1. Kina :
+	\nKina adalah satu-satunya bahan yang ampuh untuk mengobati malaria. Pohon kina merupakan
+	pohon perdu yang berkayu dan warnanya selalu hijau dengan kulit kayu yang tebal. Kina berkembang
+	biak dengan cara berbunga dengan bakal buah di dalam bunga. Obat kina diproduksi dari kulit pohonnya.
+	\n\n2. Jahe :
+	\nJahe adalah tanaman berakar rimpang dan bahan berkasiat pada tanaman ini terletak pada akarnya.
+	Jahe popular sebagai minuman yang dapat menghangatkan tubuh. Meminum sari jahe dipercaya juga dapat
+	mengembalikan kesegaran tubuh. Cara membuat minuman jahe cukup mudah, hanya digepengkan dan kemudian
+	diseduh dengan air hangat kemudian dapat ditambahkan gula atau bahan lainnya seperti kopi dan the.
+	\n\n3.Lidah buaya :
+	\nSelain berfungsi sebagai tanaman hias, lidah buaya juga memiliki berbagai manfaat yang berguna baik
+	untuk kesehatan ataupun kecantikan. Sejak berabad lamanya lidah buaya atau lebih dikenal dengan aloevera
+	ini digunakan sebagai bahan untuk merawat kecantikan para putri raja. Sebagai obat, aloevera bermanfaat
+	untuk memperlambat tumbuhnya virus HIV, memperbaiki sistim pencernaan, membunuh kuman dan menghilangkan
+	rasa sakit. Sebagai bahan kecantikan aloevera bermanfaat untuk melindungi kulit dari kekeringan dan
+	dehidrasi, merangsang tumbuhnya sel sel kulit yang baru, serta dapat menyuburkan rambut. Tak hanya itu
+	lidah buaya ini juga dapat dikonsumsi dan dapat digunakan sebagai bahan campuran minuman yang menyegarkan.
+		</item>
+        <item>
+			\n\n1. Kopi
+			\nDalam studi yang dilakukan terhadap 61 penderita parkinson, ilmuwan Kanada menemukan pemberian
+			kafein (3 cangkir kopi) per hari bisa meningkatkan gerak motorik. "Kafein bisa mengobati penyakit
+			Parkinson," kata Dr Ronald Postuma, seorang profesor di departemen neurologi, McGill University,
+			di Montreal, seperti dikutip dari HealthDay News, (2/8). asil penelitian menunjukkan kafein mendukung
+			aspek motorik dan membuat pasien lebih energik. Penyakit Parkinson adalah gangguan degeneratif yang
+			menyebabkan gemetar, kekakuan, gerakan lambat dan kesulitan keseimbangan. Lebih dari satu juta orang
+			Amerika mengalami penyakit Parkinson. Bahkan, lebih dari 50.000 orang didiagnosis dengan penyakit ini
+			setiap tahun, menurut National Parkinson Foundation.
+			\n\n2. Teripang Laut
+			\nDengan menggunakan ekstrak teripang laut yang dikenal oleh masyarakat kita dengan sebutan "Timun Laut"
+		</item>
+        <item>
+			\n\n1. Buah Apel
+			\n cara pemakaiannya dengan cara dimakan langsung atau juga bisa dengan cara di jus.
+			\n\n2. Sarang semut
+			\n cara menggunakannya dengan cara direbus, dan diambil airnya saja.
+			\n\n3. Daun Sirsak
+			\n cara menggunakannya dengan cara direbus, dan diambil airnya saja.
+		</item>
+        <item>
+			\n\n1. Istirahat total
+			\nPenderita meningitis dianjurkan untuk beristirahat secara total, tanpa melakukan aktivitas berat.
+			Pengobatan meningitis pada tahap awal ini bertujuan untuk meredakan gejala seperti sakit kepala.
+			\n\n2. Mandi air hangat
+			\nUntuk mengobati meningitis, pasien dianjurkan untuk mandi sebelum tidur dengan suhu air sekitar
+			35 derajat Celcius. Pasien disarankan untuk berendam di air hangat ini selama sekitar 45 menit. Sebelum
+			aktivitas mandi, maka kelapa dan dahi pasien dikompres dengan kain dingin.
+			\n\n3. Minum jus buah
+			\nUntuk pengobatan awal, pasien diberikan larutan oralit dengan menggunakan air hangat untuk diminum.
+			Kemudian, pasien sebaiknya minum jus buah untuk meningkatkan daya tahan tubuh, energy, dan mencegah dehidrasi.
+			\n\n4. Mengkonsumsi Chlorella
+			\nGanggang hijau ini kaya akan klorofil, yang berguna untuk meningkatkan distribusi oksigen ke darah dan membantu
+			dalam pembentukan sel darah merah. Klorofil dalam ganggang hijau mampu membersihkan aliran darah. Chlorella
+			mengandung lebih dari 20 vitamin dan mineral yang mudah diserap dan dicerna oleh tubuh anda. Makanan sehat ini
+			sangat efektif dalam pemulihan meningitis, sebagai obat alami terbaik.
+			\n\n5. Susu kedelai
+			\nUntuk pengobatan Meningitis secara alami, susu kedelai dan madu sangat membantu dalam proses penyembuhan.
+			Campur secangkir susu kedelai dengan 2 sdt madu, kemudian minum di pagi hari. Campuran ini memiliki sifat kuratif
+			dan penyembuhan terhadap meningitis. Konsumsi secara teratur selama 3-4 bulan.
+			\n\n6. Bawang putih
+			\nUntuk mengobati meningitis secara tradisional, bawang putih cukup efektif untuk digunakan. Rempah ini memiliki
+			sifat anti bakteri dan anti virus. Caranya, makan 3 siung bawang putih setiap pagi ketika perut kosong.
+			\n\n7. Jus jeruk dan bit
+			\nDengan minum jus jeruk dengan air hangat, akan memberikan tambahan energi bagi tubuh, dan meningkatkan daya tahan
+			tubuh anda. Demikian juga, jus buah bit bermanfaat untuk membangun daya tahan tubuh, sehingga mempercepat pemulihan.
+			\n\n8. Jahe
+			\nJus buah yang dicampur dengan jahe, dapat membantu untuk penyembuhan Meningitis. Cara membuatnya, campur sari jahe
+			dengan jus buah. Minum campuran ini, tiga kali dalam sehari selama sebulan. Jahe mampu melawan infeksi virus yang berbahaya.
+			\n\n9. Air kelapa
+			\nAir kelapa memiliki sifat anti inflamasi, anti virus, dan antibakteri yang membantu dalam penyembuhan meningitis.
+			Air kelapa mampu mengganti energi yang hilang dan stamina tubuh. Air kelapa juga bermanfaat untuk mencegah dehidrasi,
+			yang disebabkan hilangnya cairan tubuh dan muntah. Minum air kelapa, tiga kali dalam sehari.
+		</item>
+        <item>
+			\n\n1. Daun Pegagan
+			\nMenemukan daun pegagan ini bisa kalian temukan di penjual tanaman hias dengan harga yang cukup terjangkau.
+			Dan bisa kalian rawat serta jika sewaktu waktu membutuhkannya bisa langsung memetiknya, tanpa mencarinya lagi.
+			DanTanaman Herbal Mampu Menyembuhkan Penyakit Epilepsi bila dengan menggunakan daun pegagan. Cara menggunakan
+			daun pegagan ini sangat mudah yang bisa kalian rebus dengan air yang nantinya di angkat dan saring jika sudah
+			matang. Minumlah ramuan ini dengan tiap hari agar penyakit epilepsi dapat cepat hilang dalam waktu yang singkat.
+			\n\n2. Daun Seledri
+			\nTumbuhan herbal bernama seledri ini berasal dari daerah subtrotip eropa dan asia. Nama ilmiahnya adalah celery
+			apium gravoelens, Linn. Tumbuhan di dataran ting pada ketinggian di atas 900 m dari permukaan laut. Daun seledri
+			banyak mengandung Apin dan substansi diureti yang bermanfaat menambah jumlah air kencing. Akar seledri ini sangat
+			berkhasiat untuk pencernaan dan peluruh kencing. Sedangkan buah dan bijinya sebagai pereda kejang kejang (antisoasmodik).
+			Perlu Anda ketahui setaip 100 gr seledri memiliki kalori sebanyak 20 kkal, hidrat orang 4,6 gram , lemak 0,1 gram,
+			protein 1 gram , kalsium 50 mg, fosor 40 mg, besi 1mg, vitamin B1 0,003 mg, vitamin A 130 S1 dan vitamin C 11 mg.
+			\n\n3. Daun Sweetener Stevia
+			\n Sweetener stevia memiliki khasiat dan manfaat yang tidak kalah baiknya bagi kesehatan termasuk menyembuhkan epilepsi.
+			Stevia adalah tanaman berdaun hijau yang berasal dari amerika selatan. Telah digunakan untuk tujuan pengobatan selama
+			berabad-abad. Tanaman ini juga telah dibiakan secara besar-besaran, rasa manis yang terdapat didalambnya digunakan sebagai
+			pemanis alami. Bahan berkhasiat ini untuk menyembuhkan epilepsi dan meredakan kejang kejang.
+		</item>
     </string-array>
 
     <string-array name="penyebab_kepala">

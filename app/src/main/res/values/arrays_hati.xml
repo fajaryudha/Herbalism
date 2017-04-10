@@ -17,12 +17,14 @@
     <string-array name="penyakit_hati">
         <item>Penyakit Kuning</item>
 	<item>Hepatitis</item>
+        <item>Sirosis hati</item>
     </string-array>
 
 <string-array name="arti_hati">
         <item>Asma adalah jenis penyakit jangka panjang atau kronis pada saluran pernapasan yang ditandai dengan peradangan dan penyempitan saluran napas yang menimbulkan sesak atau sulit bernapas. Selain sulit bernapas, penderita asma juga bisa mengalami gejala lain seperti nyeri dada, batuk-batuk, dan mengi. Asma bisa diderita oleh semua golongan usia, baik muda atau tua. </item>
-	<item>Tuberkulosis (TB) yang juga dikenal dengan singkatan TBC, adalah penyakit menular paru-paru yang disebabkan oleh basil Mycobacterium tuberculosis. Penyakit ini ditularkan dari penderita TB aktif yang batuk dan mengeluarkan titik-titik kecil air liur dan terinhalasi oleh orang sehat yang tidak memiliki kekebalan tubuh terhadap penyakit ini.</item>   
- </string-array>
+    <item>Tuberkulosis (TB) yang juga dikenal dengan singkatan TBC, adalah penyakit menular paru-paru yang disebabkan oleh basil Mycobacterium tuberculosis. Penyakit ini ditularkan dari penderita TB aktif yang batuk dan mengeluarkan titik-titik kecil air liur dan terinhalasi oleh orang sehat yang tidak memiliki kekebalan tubuh terhadap penyakit ini.</item>
+    <item> Sirosis hati merupakan penyakit dari efek lanjutan dari hepatitis B dan hepatitis C yang sangat kronis. Penyakit ini pun menyebabkan fungsi hati terganggu karenanya banyaknya jaringan ikat yang ada di dalam hati. Secara medis, penyakit ini tidak dapat disembuhkan. Hanya saja jika dilakukan pengobatan, pengobatan tersebut hanya untuk mengobatai komplikasi yang terjadi akibat penyakit tersebut, seperti mata kuning, perut membesar, muntah, koma hematikum serta berak darah.</item>
+</string-array>
 	
 <string-array name="obat_hati">
 <item>
@@ -51,6 +53,15 @@ Obat Hepatitis yang Alami dengan menggunakan dua buah tomat yang masak, gula pas
 Ambillah tiga buah mengkudu matang dan segenggam kulit mengkudu, selembar daun pisang, sepotong kain, cuka secukupnya saja. Aturan pembuatan adalah cucilah buah mengkudu dicuci dan kemudian diparut dan diperas dengan sepotong kain. Air perasan tadi diminum. Dan untuk penggunaan luar, maka ulit mengkudu ditumbuk sampai halus, setelah itu aduklah dengan sedikt cuka. Bungkus ramuan Obat Hepatitis yang Alami tadi dengan daun pisang. Kemudian dipanaskan sebentar diatas api atau juga langsung di kukus. Dan untuk kondisi yang hangat maka tempelkanlah bungkusan tersebut pada daerah perut bagian kanan atas, tempart dimana hati mengalami pembengkakan.
 
 </item>
+    \n\n1. Gingseng
+    \n gingseng sangat bermanfaat untuk memelihara daya tahan tubuh, mengoptimalkan kinerja hati,
+    memperbaiki kerusakan sel dan jaringan hati.
+    \n\n2. Teh Hijau
+    \n kandungan catechin yang merupakan flavonoid dengan antioksidan yang melindungi hati dan
+    meningkatkan kemampuan menstabilkan jaringan dan membran sel hati.
+    <item>
+
+    </item>
     </string-array>
    
     <array name="sebab_hati">

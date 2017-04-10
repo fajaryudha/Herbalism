@@ -17,12 +17,16 @@
     <string-array name="penyakit_jantung">
         <item>Jantung Koroner</item>
 	<item>Jantung Lemah</item>
+        <item>Gagal Jantung</item>
+        <item>Kardiomiopati</item>
     </string-array>
 
 <string-array name="arti_jantung">
         <item>Penyakit jantung koroner berarti terjadinya hambatan atau sumbatan pada arteri koroner sehingga pasokan darah ke otot-otot jantung menjadi berkurang bahkan tidak ada sama sekali sehingga menimbulkan berbagai gejala bahkan bisa mengancam nyawa. Hal ini paling sering disebabkan oleh aterosklerosis atau sumbatan kolesterol pada pembuluh darah arteri. </item>
-	<item>Lemah jantung adalah penyakit yang berhubungan dengan miokard atau otot jantung. Penyakit ini tidak berkaitan dengan penyakit arteri jantung, katup jantung, atau darah tinggi, namun memiliki beberapa tingkatan disfungsi otot jantung yang dapat disebabkan oleh penyakit lain. Lemah Jantung dapat menjadi penyebab detak jantung yang lemah ataupun tidak beraturan hingga gagal jantung pada penderitanya.</item>   
- </string-array>
+    <item>Lemah jantung adalah penyakit yang berhubungan dengan miokard atau otot jantung. Penyakit ini tidak berkaitan dengan penyakit arteri jantung, katup jantung, atau darah tinggi, namun memiliki beberapa tingkatan disfungsi otot jantung yang dapat disebabkan oleh penyakit lain. Lemah Jantung dapat menjadi penyebab detak jantung yang lemah ataupun tidak beraturan hingga gagal jantung pada penderitanya.</item>
+    <item>Gagal jantung merupakan jantung yang tidak mampu lagi memompa darah ke seluruh tubuh secara efektif. Dikatakan gagal bukan karena jantung berhenti bekerja tetapi juga karena jantung tidak bisa memompa sekuat biasanya. Akibatnya darah bisa masuk ke paru-paru atau bagian tubuh lainnya.</item>
+    <item>Penyakit ini adalah karena adanya kerusakan atau gangguan pada otot jantung sehingga dinding-dinding jantung menjadi tidak bergerak secara sempurna ketika memompa darah dan menyedot darah. Penderia kardiomiopati pun memiliki risiko tinggi untuk mengidap arritmatia dan gagal jantung.</item>
+</string-array>
 	
 <string-array name="obat_jantung">
 <item>
@@ -62,6 +66,28 @@ Cara membuat ramuannya. \n
 •	Agar maksimal khasiatnya, di minum sebelum makan ya.
 
 </item>
+    <item>
+        \n\n1. Kulit buah manggis
+        \nKahsiat kulit buah manggis mampu menyembuhkan penyakit gagal jantung karena di dalm kulit buah manggis memiliki kadungan yang sangat dahsyat yaitu kandungan senyawa Xanthone. senyawa Xanthone ini mengandung menganandung zat antioksidan sangat tinggi yangdapat menangkal radikal bebas yang pada saat ini di sebabkan oleh gagal jantung. sedangkan xanthone adalah subtansi kimia alam iyang tergolong senyawa Volyhenolic yang berkhasiat untuk menyembuhkan berbagai jenis penyakit.
+        \n\n2. Daun Sirsak
+        \nBukan hanya kulit buah manggis saja yangmampu untuk menyembuhkan penyakit gagal janutng tetapi kini daun sirsak juga mampu untuk menyembuhkan gagal jantung, karena di dalm daun sirsak mengandung zat antiinflamasi yang dapat memperlancar peredaran darah, anti peradangan juga yang dapat mencegah pembengkakan, lalu antitumor dan antikanker. bukan hanya itu saja juga yang di miliki daun sirsak tetapi daun sirsak juga mengandung kaya itamin A, C serta karbohidrat serta, fosfor dan mineral.
+    </item>
+    <item>
+     \n\n1. Pisang
+\nKegunaan kalium dan magnesium dalam buah pisang adalah menurunkan tekanan darah tinggi. disamping itu juga kandungan vitamin B6, C dan serat dapat menguatkan jantung, termasuk pada jantung lemah ( kardiomiopati )
+
+\n\n2. Delima
+\nBuah ini kaya akan polifenol sangat baik untuk jantung, yaitu  untuk mencegah dan menurunkan aterosklerosis (penebalan dinding arteri), mengontrol kolesterol dengan mengurangi LDL (kolesterol jahat dan meningkatkan HDL (kolesterol baik).
+
+\n\n3. Pepaya
+\nUntuk mendapatkan kandungan dari buah pisang ini seperti Vitamin A, C E, folat, magnesium, kalsium serta kalium yang dapat menjaga kekuatan dan kesehatan jantung, termasuk pada jantung lemah ( kardiomiopati )
+
+\n\n4. Jeruk nipis
+\nJeruk nipis terkenal dengan kandungan vitamin c bersifat antioksidan, namun lain halnya dnegan daunnya. daun jeruk nipis dipercaya mengandung senyawa flavanoid yang cukup tinggi.
+
+\n\n5. Buah Melon
+\nPotong potong buah ini menjadi bagin kecil untuk dikonsumsi tiap hari, karena  buah ini kaya akan Vitamin A, B6, C, folat, potassium, dan serat  sangat baik bagi kekuatan jantung, termasuk pada jantung lemah ( kardiomiopati )
+    </item>
     </string-array>
    
     <array name="sebab_jantung">
