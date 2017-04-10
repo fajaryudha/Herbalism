@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -47,6 +48,7 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
         Herbalism herbalism = herbalismList.get(position);
         holder.tvJudul.setText(herbalism.Judul);
         holder.ivFoto.setImageURI(Uri.parse(herbalism.Foto));
+        holder.tvDes.setText(herbalism.Descripsi);
         setAnimation(holder.itemView,position);
     }
 
@@ -77,16 +79,25 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView ivFoto;
-        TextView tvJudul;
+        TextView tvJudul, tvDes;
+        Button button;
 
         public ViewHolder(View itemView) {
             super(itemView);
             ivFoto = (ImageView) itemView.findViewById(R.id.imageList);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
+            tvDes = (TextView) itemView.findViewById(R.id.textViewDes);
+            button = (Button) itemView.findViewById(R.id.buttonClick);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    mIHerbalismAdapter.doClick(getAdapterPosition());
+                }
+            });
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
                     mIHerbalismAdapter.doClick(getAdapterPosition());
                 }
             });
