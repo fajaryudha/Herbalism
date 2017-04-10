@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.putExtra(Intent.EXTRA_TEXT,
-                        "Hey check out my app at: https://play.google.com/store/apps/details?id=com.google.android.apps.plus");
+                        "Hey check out my app at: https://play.google.com/store/apps/details?id=id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism&hl=en");
                 sendIntent.setType("text/plain");
                 startActivity(sendIntent);
             }
