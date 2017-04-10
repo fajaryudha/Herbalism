@@ -1,6 +1,8 @@
 package id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism;
 
 import android.content.Intent;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     FloatingActionButton menu1,menu2,menu3 ;
     ImageView head;
-
+    MediaPlayer mMediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        mMediaPlayer = new MediaPlayer();
+        mMediaPlayer = MediaPlayer.create(this, R.raw.bird_flicker);
+        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mMediaPlayer.setLooping(false);
+        mMediaPlayer.start();
+
     }
 
     public void click(View view) {
@@ -51,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), HeadActivity.class);
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, head, "HeadTransition");
         startActivity(intent, options.toBundle());
+        mMediaPlayer.stop();
     }
 
     public void onBody(View view) {
@@ -58,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), LegActivity.class);
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, body, "HeadTransition");
         startActivity(intent, options.toBundle());
+        mMediaPlayer.stop();
     }
 
     public void onLeftHand(View view) {
@@ -65,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), HandActivity.class);
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, lh, "HeadTransition");
         startActivity(intent, options.toBundle());
+        mMediaPlayer.stop();
     }
     
     public void onLeg(View view) {
@@ -72,5 +83,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), LegActivity.class);
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, leg, "HeadTransition");
         startActivity(intent, options.toBundle());
+        mMediaPlayer.stop();
     }
 }
