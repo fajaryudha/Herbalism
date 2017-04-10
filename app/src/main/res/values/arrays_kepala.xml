@@ -22,7 +22,7 @@
         <item>Meningitis</item>
         <item>Epilepsi</item>
     </string-array>
-    <string-array name="arti_kepala">
+    <string-array formatted="false" name="arti_kepala">
         <item>Sakit kepala adalah rasa sakit yang muncul di sekitar kepala. 
 	Sakit kepala tidak memiliki jangka waktu tertentu, bisa berlangsung 
 	kurang dari satu jam atau bahkan selama beberapa hari, serta  bisa muncul 
