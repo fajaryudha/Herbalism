@@ -118,5 +118,7 @@ Pembedahan dilakukan untuk mengatasi penyumbatan pada aliran kemih (uropati obst
     <array name="sebab_ginjal">
         <item>@drawable/batu_ginjal</item>
         <item>@drawable/gagal_ginjal</item>
+        <item>@drawable/nefritis</item>
+        <item>@drawable/sistasis</item>
     </array>
 </resources>

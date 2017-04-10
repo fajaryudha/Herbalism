@@ -125,5 +125,7 @@ anda sehingga dapat menghilangkan rasa gatal dan warna merah akibat mata perih, 
     
     <array name="sebab_mata">
         <item>@drawable/mata_berair</item>
+        <item>@drawable/konjungtivitas</item>
+        <item>@drawable/katarak</item>
     </array>
 </resources>

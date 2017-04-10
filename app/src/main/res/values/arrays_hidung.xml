@@ -103,5 +103,8 @@ Caranya mudah, anda hanya perlu mengoleskan minyak kayu putih atau balsam di dek
  
     <array name="sebab_hidung">
         <item>@drawable/mimisan</item>
+        <item>@drawable/sinusitis</item>
+        <item>@drawable/pilek</item>
+        <item>@drawable/polip_hidung</item>
     </array>
 </resources>

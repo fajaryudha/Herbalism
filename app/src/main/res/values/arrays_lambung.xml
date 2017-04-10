@@ -117,5 +117,8 @@
     <array name="sebab_lambung">
         <item>@drawable/maagh</item>
         <item>@drawable/asam_lambung</item>
+        <item>@drawable/gastritis</item>
+        <item>@drawable/poliplambung</item>
+        <item>@drawable/dispepsia</item>
     </array>
 </resources>
