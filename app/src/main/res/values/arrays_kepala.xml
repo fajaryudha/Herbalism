@@ -22,7 +22,7 @@
         <item>Meningitis</item>
         <item>Epilepsi</item>
     </string-array>
-    <string-array formatted="false" name="arti_kepala">
+	<string-array name="arti_kepala" formatted="false">
         <item>Sakit kepala adalah rasa sakit yang muncul di sekitar kepala. 
 	Sakit kepala tidak memiliki jangka waktu tertentu, bisa berlangsung 
 	kurang dari satu jam atau bahkan selama beberapa hari, serta  bisa muncul 
@@ -56,6 +56,9 @@
 			ataupun virus. Ketika meninges diserang, meninges akan meradang dan membengkak akibat infeksi. Hal
 			tersebut dapat merusak sistem saraf dan otak. Sehingga penderita seringkali berujung pada kematian.
 			Penyakit ini dapat dicegah dengan melakukan vaksinasi meningitis.
+		</item>
+		<item>
+			Penyakit epilepsi atau ayan adalah suatu kondisi yang dapat menjadikan seseorang mengalami kejang secara berulang. Kerusakan atau perubahan di dalam otak diketahui sebagai penyebab pada sebagian kecil kasus epilepsi. Namun pada sebagian besar kasus yang pernah terjadi, penyebab masih belum diketahui secara pasti.
 		</item>
     </string-array>
 
@@ -102,9 +105,7 @@
 	rasa sakit. Sebagai bahan kecantikan aloevera bermanfaat untuk melindungi kulit dari kekeringan dan
 	dehidrasi, merangsang tumbuhnya sel sel kulit yang baru, serta dapat menyuburkan rambut. Tak hanya itu
 	lidah buaya ini juga dapat dikonsumsi dan dapat digunakan sebagai bahan campuran minuman yang menyegarkan.
-		</item>
-        <item>
-			\n\n1. Kopi
+			\n\n4. Kopi
 			\nDalam studi yang dilakukan terhadap 61 penderita parkinson, ilmuwan Kanada menemukan pemberian
 			kafein (3 cangkir kopi) per hari bisa meningkatkan gerak motorik. "Kafein bisa mengobati penyakit
 			Parkinson," kata Dr Ronald Postuma, seorang profesor di departemen neurologi, McGill University,
@@ -113,10 +114,10 @@
 			menyebabkan gemetar, kekakuan, gerakan lambat dan kesulitan keseimbangan. Lebih dari satu juta orang
 			Amerika mengalami penyakit Parkinson. Bahkan, lebih dari 50.000 orang didiagnosis dengan penyakit ini
 			setiap tahun, menurut National Parkinson Foundation.
-			\n\n2. Teripang Laut
+			\n\n5. Teripang Laut
 			\nDengan menggunakan ekstrak teripang laut yang dikenal oleh masyarakat kita dengan sebutan "Timun Laut"
-		</item>
-        <item>
+        </item>
+		<item>
 			\n\n1. Buah Apel
 			\n cara pemakaiannya dengan cara dimakan langsung atau juga bisa dengan cara di jus.
 			\n\n2. Sarang semut
@@ -209,5 +210,9 @@
     <array name="sebab_kepala">
 		<item>@drawable/sakit_kepala</item>
         <item>@drawable/stroke</item>
+		<item>@drawable/hidrosefalus</item>
+		<item>@drawable/pakison</item>
+		<item>@drawable/menikhitis</item>
+		<item>@drawable/epilepsi</item>
     </array>
 </resources>

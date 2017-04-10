@@ -85,6 +85,7 @@ Baking Soda juga ternyata bisa membantu dalam menghilangkan kapalan. Caranya cuk
         <item>@drawable/mata_ikan</item>
         <item>@drawable/cantengan</item>
         <item>@drawable/kapalan</item>
+        <item>@drawable/osteoarthritis</item>
     </array>
     <array name="gambar_kulit">
         <item>@drawable/kulit_kaki</item>

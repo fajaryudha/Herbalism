@@ -124,5 +124,6 @@
     <array name="sebab_usus">
         <item>@drawable/usus_buntu</item>
 	<item>@drawable/disentri</item>
+        <item>@drawable/visuranai</item>
     </array>
 </resources>

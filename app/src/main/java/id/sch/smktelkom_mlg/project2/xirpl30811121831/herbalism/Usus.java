@@ -70,7 +70,7 @@ public class Usus extends AppCompatActivity {
         for (int i = 0; i < arJudul.length; i++) {
             TitleParent title = new TitleParent(arJudul[i]);
             _titleParent.add(title);
-            for (int j = 0; j < arPenyakit.length -1 ; j++) {
+            for (int j = 0; j < arPenyakit.length - 2; j++) {
                 //for (TitleParent titlel : titles) {
                 List<Object> childList = new ArrayList<>();
                 childList.add(new TitleChild(arPenyakit[i], arPenyakit1[i], "", arFoto[i]));

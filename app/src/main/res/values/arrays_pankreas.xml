@@ -74,6 +74,7 @@ Rebus bahan-bahan herbal  tersebut dengan menggunakan 4 gelas air, rebus hingga 
     </string-array>
  
     <array name="sebab_pankreas">
-        <item>@drawable/pankreas</item>
+        <item>@drawable/diabetes</item>
+        <item>@drawable/pankreatis</item>
     </array>
 </resources>

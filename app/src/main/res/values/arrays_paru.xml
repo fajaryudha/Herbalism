@@ -70,5 +70,6 @@ Untuk efek yang diberikan saat minum air rebusan daun sirsak ini adlah perut aka
     <array name="sebab_paru">
         <item>@drawable/asma</item>
 	<item>@drawable/tbc</item>
+        <item>@drawable/pneumonia</item>
     </array>
 </resources>
