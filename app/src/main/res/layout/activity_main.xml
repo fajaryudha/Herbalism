@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:fab="http://schemas.android.com/tools"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/women3"
     tools:context="id.sch.smktelkom_mlg.project2.xirpl30811121831.herbalism.MainActivity">
 
     <LinearLayout
@@ -20,8 +22,9 @@
 
         <ImageView
             android:id="@+id/HeadImage"
-            android:layout_width="match_parent"
-            android:layout_height="141dp"
+            android:layout_width="394dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
             android:layout_margin="0dp"
             android:adjustViewBounds="true"
             android:baselineAlignBottom="true"
@@ -30,20 +33,19 @@
             android:padding="0dp"
             android:scaleType="fitCenter"
             android:transitionName="HeadTransition"
-            app:srcCompat="@drawable/w1"
+            app:srcCompat="@drawable/lagi1"
             tools:layout_editor_absoluteX="158dp"
             tools:layout_editor_absoluteY="81dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:weightSum="0">
+            android:weightSum="1">
 
             <ImageView
                 android:id="@+id/LeftHandImage"
-                android:layout_width="match_parent"
-                android:layout_height="141dp"
-                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_margin="0dp"
                 android:adjustViewBounds="true"
                 android:baselineAlignBottom="false"
@@ -55,34 +57,7 @@
                 android:padding="0dp"
                 android:scaleType="fitCenter"
                 android:transitionName="HeadTransition"
-                app:srcCompat="@drawable/w2"
-                tools:layout_editor_absoluteX="158dp"
-                tools:layout_editor_absoluteY="81dp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:baselineAligned="true"
-            android:orientation="vertical"
-            android:weightSum="0">
-
-            <ImageView
-                android:id="@+id/BodyImage"
-                android:layout_width="match_parent"
-                android:layout_height="141dp"
-                android:layout_margin="0dp"
-                android:adjustViewBounds="true"
-                android:baselineAlignBottom="true"
-                android:elevation="0dp"
-                android:foregroundGravity="fill"
-                android:onClick="onBody"
-                android:outlineProvider="none"
-                android:padding="0dp"
-                android:scaleType="fitCenter"
-                android:transitionName="HeadTransition"
-                app:srcCompat="@drawable/w3"
+                app:srcCompat="@drawable/lagi2"
                 tools:layout_editor_absoluteX="158dp"
                 tools:layout_editor_absoluteY="81dp" />
 
@@ -97,8 +72,8 @@
 
             <ImageView
                 android:id="@+id/LegImage"
-                android:layout_width="320dp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
                 android:layout_above="@+id/FloatingActionMenu1"
                 android:layout_alignLeft="@+id/FloatingActionMenu1"
                 android:layout_alignStart="@+id/FloatingActionMenu1"
@@ -109,9 +84,9 @@
                 android:elevation="0dp"
                 android:onClick="onLeg"
                 android:padding="0dp"
-                android:scaleType="fitCenter"
+                android:scaleType="fitXY"
                 android:transitionName="HeadTransition"
-                app:srcCompat="@drawable/w4"
+                app:srcCompat="@drawable/lagi3"
                 tools:layout_editor_absoluteX="158dp"
                 tools:layout_editor_absoluteY="81dp" />
         </LinearLayout>
@@ -139,7 +114,7 @@
         fab:menu_fab_label="your_label_here"
         fab:menu_fab_show_animation="@anim/my_show_animation"
         fab:menu_fab_size="normal"
-        fab:menu_icon="@drawable/fab_add"
+        fab:menu_icon="@drawable/ic_face_black"
         fab:menu_labels_colorNormal="#333333"
         fab:menu_labels_colorPressed="#444444"
         fab:menu_labels_colorRipple="#66FFFFFF"
@@ -185,3 +160,4 @@
     </com.github.clans.fab.FloatingActionMenu>
 
 </RelativeLayout>
+</ScrollView>
