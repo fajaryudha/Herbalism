@@ -25,8 +25,7 @@
         <item>Anus</item>
     </string-array>
     <string-array name="place_desc">
-        <item>The Palais Garnier which locates in Paris was built from 1861 for
-        the Paris Opera.</item>
+        <item>Jantung adalah organ pusat manusia</item>
         <item>Piazza del Duomo the cathedral which locates in Florence.</item>
         <item>Manhattan is the district in New York City</item>
         <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
@@ -131,5 +130,15 @@
         <item>Ini Lagi6</item>
         <item>Ini Lagi7</item>
         <item>Ini Lagi8</item>
+    </string-array>
+    <string-array name="kosong">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
 </resources>

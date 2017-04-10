@@ -53,12 +53,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent, options.toBundle());
     }
 
-    //public void onBody(View view) {
-    //    ImageView body = (ImageView) findViewById(R.id.BobyImage);
-    //    Intent intent = new Intent(getApplicationContext(), LegActivity.class);
-    //    ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, body, "HeadTransition");
-    //    startActivity(intent, options.toBundle());
-    //}
+    public void onBody(View view) {
+        ImageView body = (ImageView) findViewById(R.id.BodyImage);
+        Intent intent = new Intent(getApplicationContext(), LegActivity.class);
+        ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(this, body, "HeadTransition");
+        startActivity(intent, options.toBundle());
+    }
 
     public void onLeftHand(View view) {
         ImageView lh = (ImageView) findViewById(R.id.LeftHandImage);
