@@ -46,6 +46,7 @@ dependencies {
     compile 'com.intuit.sdp:sdp-android:1.0.4'
     compile 'com.github.clans:fab:1.6.4'
     compile 'com.bignerdranch.android:expandablerecyclerview:1.0.3'
+    compile 'com.github.chrisbanes:PhotoView:1.2.6'
 
     testCompile 'junit:junit:4.12'
 }

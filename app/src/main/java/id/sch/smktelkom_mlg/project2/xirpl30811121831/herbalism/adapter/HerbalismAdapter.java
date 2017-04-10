@@ -44,7 +44,6 @@ public class HerbalismAdapter extends RecyclerView.Adapter<HerbalismAdapter.View
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-
         Herbalism herbalism = herbalismList.get(position);
         holder.tvJudul.setText(herbalism.Judul);
         holder.ivFoto.setImageURI(Uri.parse(herbalism.Foto));

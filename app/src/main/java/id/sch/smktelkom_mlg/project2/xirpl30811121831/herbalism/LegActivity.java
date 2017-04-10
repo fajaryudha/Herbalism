@@ -49,7 +49,7 @@ public class LegActivity extends AppCompatActivity implements HerbalismAdapter.I
     private void fillData() {
 
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.kulit_oyi1);
+        String[] arJudul = resources.getStringArray(R.array.kulit_oyi2);
         String[] arDescripsi = resources.getStringArray(R.array.kulit_oyi1);
         String[] arDetail = resources.getStringArray(R.array.kulit_oyi1);
         String[] arLokasi = resources.getStringArray(R.array.kulit_oyi1);
