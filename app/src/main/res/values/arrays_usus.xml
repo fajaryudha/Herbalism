@@ -17,11 +17,13 @@
     <string-array name="penyakit_usus">
         <item>Usus Buntu</item>
 	<item>Disentri</item>
+        <item>Fisura anal</item>
     </string-array>
 
 <string-array name="arti_usus">
         <item>Penyakit usus buntu adalah peradangan atau pembengkakan apendiks atau usus buntu.  Sedangkan usus buntu adalah organ berbentuk kantong kecil dan tipis berukuran 5 hingga 10 cm yang terhubung pada usus besar. Hingga saat ini, alasan kenapa kita memiliki usus buntu masih belum diketahui.</item>
 	<item>Disentri adalah infeksi pada usus yang menyebabkan diare yang disertai darah atau lendir. Diare merupakan buang air besar encer dengan frekuensi yang lebih sering dari biasanya. Di samping diare, gejala disentri lainnya meliputi kram perut, mual atau muntah, serta demam.</item>
+    <item>Fisura adalah sobek mengerikan di anus. Ketika mukosa dubur terentang melampaui batas, itu mengarah ke fisura anus.</item>
 </string-array>
 	
 <string-array name="obat_usus">
@@ -110,6 +112,13 @@
 
 
 </item>
+    <item>
+      \n\n1. Madu
+        \n Madu digunakan untuk mengobati lika yang terinfeksi karena beberapa infeksi bakteri.
+        \n\n2. Sirsak
+        \n kalsium pada daun sirsak dapat membantu pembekuan darah, tanpa kalsium darah tidak bisa membeku bila terjadi luka
+        mengurangi infeksi dan pembengkakan dan mempercepat proses pengeringan luka, termasuk luka disekitar anus.
+    </item>
     </string-array>
 
     <array name="sebab_usus">
