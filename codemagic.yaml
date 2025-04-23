@@ -4,6 +4,7 @@ workflows:
     name: Android Native Build Workflow # Memastikan Gradle digunakan untuk build
     scripts:
       - echo "Setting up Android environment"
+      - chmod +x ./gradlew
       - ./gradlew clean  # Membersihkan build sebelumnya
       - ./gradlew assembleRelease  # Membangun APK release
       - echo "Build APK selesai"
