@@ -1,11 +1,7 @@
 version: 2
 workflows:
   android-build:
-    name: Android Native Build Workflow
-    environment:
-      flutter: stable  # Jika menggunakan Flutter, jika tidak bisa dihapus
-      android: true  # Menentukan Android sebagai target environment
-      gradle: true  # Memastikan Gradle digunakan untuk build
+    name: Android Native Build Workflow # Memastikan Gradle digunakan untuk build
     scripts:
       - echo "Setting up Android environment"
       - ./gradlew clean  # Membersihkan build sebelumnya
@@ -16,14 +12,3 @@ workflows:
     artifacts:
       - app/build/outputs/apk/release/app-release.apk  # Output APK release
       - app/build/outputs/apk/debug/app-debug.apk  # Output APK debug (opsional)
-    test:
-      name: Run Unit Tests
-      scripts:
-        - echo "Running Android unit tests"
-        - ./gradlew test  # Menjalankan unit test dengan Gradle
-    deploy:
-      name: Deploy to Google Play (Opsional)
-      scripts:
-        - echo "Deploying to Google Play"
-        # Misalnya, menggunakan Fastlane untuk meng-upload ke Google Play Store
-        - fastlane android release  # Pastikan Fastlane sudah diatur
