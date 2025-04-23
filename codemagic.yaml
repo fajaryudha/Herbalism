@@ -5,6 +5,8 @@ workflows:
     scripts:
       - echo "Setting up Android environment"
       - chmod +x ./gradlew
+      - echo "Installing Java 11"
+      - sdk install java 11.0.9-open 
       - ./gradlew clean  # Membersihkan build sebelumnya
       - ./gradlew assembleRelease  # Membangun APK release
       - echo "Build APK selesai"
