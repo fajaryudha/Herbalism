@@ -2,10 +2,6 @@ version: 2
 workflows:
   android-build:
     name: Android Native Build Workflow # Memastikan Gradle digunakan untuk build
-    environment:
-      os: macos  # Menggunakan macOS sebagai environment
-      java: 11  # Menggunakan Java 11 secara eksplisit
-      gradle: true
     scripts:
       - echo "Setting up Android environment"
       - chmod +x ./gradlew
